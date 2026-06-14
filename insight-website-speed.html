@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Speed Sells: Why Slow Websites Quietly Lose Enquiries Every Day | MDS Websites</title>
+<meta name="description" content="Every extra second of load time costs conversions — especially on mobile, where most local searches happen. How to know if speed is costing you.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/styles.css?v=17">
+<style>
+  .article-body { max-width: 720px; margin: 0 auto; }
+  .article-body h2 { font-size: clamp(1.4rem,2.4vw,1.9rem); margin-top: 2.5rem; margin-bottom: 0.75rem; color: var(--navy-950); }
+  .article-body p { font-size: 1.08rem; line-height: 1.8; color: var(--ink); margin-bottom: 1.25rem; }
+  .article-body ul { padding-left: 1.4rem; margin-bottom: 1.25rem; }
+  .article-body li { font-size: 1.08rem; line-height: 1.8; color: var(--ink); margin-bottom: 0.5rem; }
+  .article-body strong { color: var(--navy-950); }
+  .article-pull { border-left: 3px solid var(--gold-500); padding: 1rem 1.5rem; margin: 2rem 0; background: rgba(201,161,77,0.06); border-radius: 0 var(--radius) var(--radius) 0; font-family: var(--font-display); font-size: 1.2rem; line-height: 1.5; color: var(--navy-900); font-style: italic; }
+  .article-meta { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; padding: 1.5rem 0; border-top: 1px solid rgba(0,0,0,0.08); border-bottom: 1px solid rgba(0,0,0,0.08); margin-bottom: 2.5rem; }
+  .article-meta-text strong { display: block; font-size: 0.95rem; color: var(--navy-950); }
+  .article-meta-text span { font-size: 0.85rem; color: var(--ink-soft); }
+  .article-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.5rem; }
+  .related-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1.5rem; }
+  @media (max-width: 700px) { .related-grid { grid-template-columns: 1fr; } }
+  .speed-stat { display: grid; grid-template-columns: repeat(3,1fr); gap: 1rem; margin: 2rem 0; }
+  .speed-stat-box { background: var(--navy-950); border-radius: var(--radius); padding: 1.25rem 1rem; text-align: center; }
+  .speed-stat-box strong { display: block; font-family: var(--font-display); font-size: 1.8rem; color: var(--gold-400); line-height: 1.1; }
+  .speed-stat-box span { font-size: 0.8rem; color: rgba(255,255,255,0.6); margin-top: 0.3rem; display: block; }
+  @media (max-width: 600px) { .speed-stat { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container nav-bar">
+    <a class="logo" href="index.html" aria-label="MdS Websites home"><span class="logo-line1"><span class="logo-mds">Md<em>S</em></span><span class="logo-brand">&nbsp;Websites</span></span><span class="logo-tagline">Your Local Digital Partner</span></a>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Open menu"><span></span><span></span><span></span></button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <div class="nav-drop">
+        <a href="services.html">Services</a>
+        <div class="nav-drop-menu">
+          <a href="services-branding.html">Branding &amp; Identity <small>Strategy, logo &amp; visual identity</small></a>
+          <a href="services-web-design.html">Web Design &amp; Development <small>High-performing, conversion-led websites</small></a>
+          <a href="services-digital-marketing.html">Digital Marketing &amp; SEO <small>Visibility, traffic &amp; enquiries</small></a>
+        </div>
+      </div>
+      <a href="process.html">Our Process</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="industries.html">Industries</a>
+      <a href="insights.html" aria-current="page">Insights</a>
+      <a href="contact.html" class="btn btn-gold nav-cta">Start a Project</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<section class="page-hero" style="position:relative;overflow:hidden;">
+  <canvas id="hero-dots" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;pointer-events:none;"></canvas>
+  <div class="container" style="position:relative;z-index:1;">
+    <p class="crumbs"><a href="index.html">Home</a> / <a href="insights.html">Insights</a> / Performance</p>
+    <div class="article-tags"><span class="tag">Performance</span><span class="tag">6 min read</span></div>
+    <h1>Speed sells: why slow websites quietly lose enquiries every day</h1>
+    <p class="lead">Every extra second of load time costs conversions — especially on mobile, where most local searches happen. Here's how to know if speed is costing you.</p>
+  </div>
+</section>
+
+<section class="section section--white">
+  <div class="container">
+    <div class="article-body">
+      <div class="article-meta">
+        <div class="avatar" aria-hidden="true">MS</div>
+        <div class="article-meta-text">
+          <strong>Martin Spooner</strong>
+          <span>Founder, MdS Websites &nbsp;·&nbsp; January 2025</span>
+        </div>
+      </div>
+
+      <p>Nobody visits a slow website and thinks "this business seems unreliable." They just leave. And they usually don't know why. They click back, find a competitor, and move on — and you never find out it happened, because there's no abandonment notification, no missed call alert, no record of the enquiry that never arrived.</p>
+
+      <p>This is what makes website speed such an insidious problem. The damage is invisible. You can't see the visitors who left before your page finished loading. You can only measure the ones who stayed — which means most website owners are looking at an optimistic subset of their actual traffic.</p>
+
+      <div class="speed-stat">
+        <div class="speed-stat-box"><strong>53%</strong><span>of mobile users abandon a site that takes more than 3 seconds to load</span></div>
+        <div class="speed-stat-box"><strong>1s</strong><span>delay in load time reduces conversions by up to 7%</span></div>
+        <div class="speed-stat-box"><strong>2×</strong><span>more likely to be penalised in search rankings if Core Web Vitals are poor</span></div>
+      </div>
+
+      <h2>Why mobile is where this matters most</h2>
+
+      <p>On a fast home broadband connection, a slightly slow website is an inconvenience. On a 4G mobile connection in the middle of a Cambridge side street, it's a dealbreaker.</p>
+
+      <p>More than half of all web browsing is now on mobile — and for local, intent-driven searches (the "near me" queries, the "plumber in Cambridge," the "best B&amp;B Southwold"), that figure is even higher. These visitors are often searching in a moment of need, with limited patience and plenty of alternatives one tap away.</p>
+
+      <p>A website that loads in 1.5 seconds on your desktop might load in 5 or 6 seconds on a mid-range phone on a mobile network. That's well past the point where most users have already gone.</p>
+
+      <div class="article-pull">
+        Speed isn't a technical nicety. For mobile visitors — your most valuable local audience — it's the difference between a first impression and a missed opportunity.
+      </div>
+
+      <h2>The most common causes of slow websites</h2>
+
+      <p><strong>Unoptimised images.</strong> This is the single biggest culprit on most small business websites. A photograph uploaded at 4000 × 3000 pixels and 8MB, displayed at 800 × 600 on screen, is making the browser download nine times more data than it needs to. Images should be compressed, resized, and served in modern formats like WebP.</p>
+
+      <p><strong>Too many plugins (for WordPress sites).</strong> Every plugin adds code that the browser has to download and execute. Bloated WordPress installations with 30 or 40 active plugins — many of them doing things you've long forgotten you enabled — are extremely common and consistently slow.</p>
+
+      <p><strong>Slow hosting.</strong> Budget shared hosting puts your site on a server shared with hundreds or thousands of other websites. When your neighbour gets a traffic spike, your site slows down. Good hosting isn't expensive — and the performance difference is significant.</p>
+
+      <p><strong>Render-blocking scripts.</strong> Third-party scripts — chat widgets, cookie consent tools, social sharing buttons, analytics — load in the background and can block the visible content of your page from appearing. Each one added without care is a small tax on your load time.</p>
+
+      <p><strong>No caching.</strong> Without caching, every visitor causes your server to rebuild the page from scratch. With it, the pre-built version is served almost instantly. It's one of the easiest performance wins available.</p>
+
+      <h2>How to find out where you stand</h2>
+
+      <p>Google's PageSpeed Insights tool (pagespeed.web.dev) gives you a free score and a prioritised list of what's slowing you down. Enter your homepage URL and read the "Opportunities" section. The issues listed there, in order, are your performance roadmap.</p>
+
+      <p>Pay particular attention to the <strong>mobile score</strong> rather than the desktop score. Mobile is where the real-world performance gap lives.</p>
+
+      <p>A score below 50 on mobile is a significant problem that's almost certainly costing you enquiries. A score between 50–70 has room for improvement. Above 70 is good; above 90 is excellent.</p>
+
+      <h2>What we do differently</h2>
+
+      <p>Every website we build is performance-optimised from the start — not as an afterthought. Images are compressed and sized correctly. Code is clean and minimal. Hosting is chosen for performance, not just cost. And we test on real mobile devices, not just desktop browsers, before anything goes live.</p>
+
+      <p>We also regularly take on performance improvement projects for existing sites — particularly WordPress sites that have accumulated years of plugins and unoptimised media. If your current site feels slow to you, it's almost certainly faster for you than it is for a first-time visitor on mobile.</p>
+
+      <div style="margin-top:2.5rem;">
+        <a href="contact.html" class="btn btn-gold">Get a free performance review</a>
+        &nbsp;&nbsp;
+        <a href="insights.html" class="btn btn-navy">Back to Insights</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="section-head"><p class="eyebrow">Keep Reading</p><h2>More from the Insights blog</h2></div>
+    <div class="related-grid">
+      <article class="card post-card">
+        <div class="meta"><span class="tag tag--gold">Local SEO</span><span>8 min read</span></div>
+        <h3><a href="insight-near-me-searches.html">Why "near me" searches are the biggest opportunity your business is ignoring</a></h3>
+        <p class="muted mt-2">High-intent local searches convert at several times the rate of general traffic.</p>
+        <a class="text-link card-link" href="insight-near-me-searches.html">Read article</a>
+      </article>
+      <article class="card post-card">
+        <div class="meta"><span class="tag">Conversion</span><span>6 min read</span></div>
+        <h3><a href="insight-website-conversion.html">Your website isn't a brochure. Five changes that turn visitors into enquiries</a></h3>
+        <p class="muted mt-2">The highest-impact fixes we make on almost every project.</p>
+        <a class="text-link card-link" href="insight-website-conversion.html">Read article</a>
+      </article>
+      <article class="card post-card">
+        <div class="meta"><span class="tag">Research</span><span>5 min read</span></div>
+        <h3><a href="insight-competitor-reviews.html">What your competitors' reviews reveal about how to win their customers</a></h3>
+        <p class="muted mt-2">Customer review analysis is the most under-used research method in web design.</p>
+        <a class="text-link card-link" href="insight-competitor-reviews.html">Read article</a>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="container">
+    <div class="cta-band">
+      <h2>Is your website fast enough to win?</h2>
+      <p>Speed, mobile performance, and Core Web Vitals are built into every site we create. Let's talk about what your current site might be costing you.</p>
+      <div class="hero-ctas"><a class="btn btn-gold" href="contact.html">Start the Conversation</a><a class="btn btn-ghost" href="services-web-design.html">Web Design Services</a></div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="logo" href="index.html"><span class="logo-line1"><span class="logo-mds">Md<em>S</em></span><span class="logo-brand">&nbsp;Websites</span></span><span class="logo-tagline">Your Local Digital Partner</span></a>
+        <p>Your digital growth partner for branding, websites and online marketing. Based in Cambridge, serving ambitious businesses across the UK.</p>
+      </div>
+      <div><h4>Services</h4><ul><li><a href="services-branding.html">Branding &amp; Identity</a></li><li><a href="services-web-design.html">Web Design &amp; Development</a></li><li><a href="services-digital-marketing.html">Digital Marketing &amp; SEO</a></li><li><a href="process.html">Our Process</a></li></ul></div>
+      <div><h4>Company</h4><ul><li><a href="about.html">About</a></li><li><a href="portfolio.html">Portfolio</a></li><li><a href="industries.html">Industries</a></li><li><a href="insights.html">Insights</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div><h4>Get in Touch</h4><ul><li><a href="mailto:info@mdswebsites.co.uk">info@mdswebsites.co.uk</a></li><li>Cambridge, United Kingdom</li><li>Client meetings Mon–Fri, 6am–9pm</li></ul></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 MdS Websites. All rights reserved.</span><span>Branding · Websites · Growth</span></div>
+  </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="assets/animations.js?v=15"></script>
+<script src="assets/main.js"></script>
+<script>(function(){const canvas=document.getElementById('hero-dots');if(!canvas||window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;const ctx=canvas.getContext('2d');const GAP=28,RADIUS=120,DPR=window.devicePixelRatio||1;let W,H,dots=[],mouse={x:-9999,y:-9999};function build(){const r=canvas.getBoundingClientRect();W=r.width;H=r.height;canvas.width=W*DPR;canvas.height=H*DPR;ctx.scale(DPR,DPR);dots=[];for(let r=0;r<Math.ceil(H/GAP)+1;r++)for(let c=0;c<Math.ceil(W/GAP)+1;c++)dots.push({x:c*GAP,y:r*GAP,lit:0});}build();window.addEventListener('resize',()=>{ctx.setTransform(1,0,0,1,0,0);build();});const sec=canvas.parentElement;sec.addEventListener('mousemove',e=>{const r=canvas.getBoundingClientRect();mouse.x=e.clientX-r.left;mouse.y=e.clientY-r.top;});sec.addEventListener('mouseleave',()=>{mouse.x=-9999;mouse.y=-9999;});function lerp(a,b,t){return a+(b-a)*t;}function draw(){ctx.clearRect(0,0,W,H);dots.forEach(d=>{const dx=d.x-mouse.x,dy=d.y-mouse.y,dist=Math.sqrt(dx*dx+dy*dy),target=dist<RADIUS?Math.pow(1-dist/RADIUS,1.6):0;d.lit=lerp(d.lit,target,target>d.lit?0.18:0.06);ctx.beginPath();ctx.arc(d.x,d.y+d.lit*-3,1.2+d.lit*2.2,0,Math.PI*2);ctx.fillStyle=`rgba(217,182,106,${(0.10+d.lit*0.7).toFixed(3)})`;ctx.fill();});requestAnimationFrame(draw);}draw();})();</script>
+</body>
+</html>
