@@ -446,8 +446,9 @@ ul.ticks li::before {
 @media (max-width: 560px) { .footer-grid { grid-template-columns: 1fr; } }
 @media (max-width: 560px) { .site-footer .container { padding-inline: 1.75rem; } }
 .site-footer h4 { color: var(--white); font-size: 0.85rem; letter-spacing: 0.14em; text-transform: uppercase; margin-bottom: var(--s-2); font-family: var(--font-body); font-weight: 700; }
-.site-footer ul { list-style-position: inside; padding-left: 0; }
-.site-footer ul li { margin-bottom: 0.6rem; }
+.site-footer ul { list-style: none; padding-left: 0; }
+.site-footer ul li { position: relative; padding-left: 1.1em; margin-bottom: 0.6rem; }
+.site-footer ul li::before { content: "•"; position: absolute; left: 0; color: rgba(255,255,255,0.5); }
 .site-footer a { color: rgba(255,255,255,0.72); text-decoration: none; transition: color var(--transition); }
 .site-footer a:hover { color: var(--gold-400); }
 .footer-brand p { max-width: 34ch; margin-top: var(--s-2); font-size: 0.95rem; }
