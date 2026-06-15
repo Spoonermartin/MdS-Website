@@ -26,6 +26,7 @@
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css">
 <link rel="stylesheet" href="assets/styles.css?v=18">
 </head>
 <body>
@@ -226,6 +227,62 @@
   draw();
 })();
 </script>
-<!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "14fab6d4aff94f24b295160b5cf0aec3"}'></script><!-- End Cloudflare Web Analytics -->
+<!-- Cookie consent (vanilla-cookieconsent by orestbida) -->
+<script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
+<script>
+  function mdsLoadAnalytics(){
+    if (document.getElementById('cf-beacon')) return;
+    var s = document.createElement('script');
+    s.id = 'cf-beacon';
+    s.defer = true;
+    s.src = 'https://static.cloudflareinsights.com/beacon.min.js';
+    s.setAttribute('data-cf-beacon', '{"token": "14fab6d4aff94f24b295160b5cf0aec3"}');
+    document.body.appendChild(s);
+  }
+  CookieConsent.run({
+    guiOptions: {
+      consentModal: { layout: 'box', position: 'bottom right' },
+      preferencesModal: { layout: 'box' }
+    },
+    categories: {
+      necessary: { enabled: true, readOnly: true },
+      analytics: {
+        services: {
+          cloudflare: {
+            label: 'Cloudflare Web Analytics (cookieless)',
+            onAccept: mdsLoadAnalytics
+          }
+        }
+      }
+    },
+    language: {
+      default: 'en',
+      translations: {
+        en: {
+          consentModal: {
+            title: 'We value your privacy',
+            description: 'We use a privacy-friendly, cookieless analytics tool to understand how visitors use our site. Choose what you are happy with.',
+            acceptAllBtn: 'Accept all',
+            acceptNecessaryBtn: 'Reject all',
+            showPreferencesBtn: 'Manage preferences',
+            footer: '<a href="privacy.html">Privacy Policy</a>'
+          },
+          preferencesModal: {
+            title: 'Cookie preferences',
+            acceptAllBtn: 'Accept all',
+            acceptNecessaryBtn: 'Reject all',
+            savePreferencesBtn: 'Save preferences',
+            closeIconLabel: 'Close',
+            sections: [
+              { title: 'Necessary', description: 'Required for the site to function correctly. Always on.', linkedCategory: 'necessary' },
+              { title: 'Analytics', description: 'Lets us measure visits with cookieless Cloudflare Web Analytics. No personal data or cookies are stored.', linkedCategory: 'analytics' },
+              { title: 'More information', description: 'For details, see our <a href="privacy.html">Privacy Policy</a>.' }
+            ]
+          }
+        }
+      }
+    }
+  });
+</script>
 </body>
 </html>
