@@ -233,7 +233,7 @@ p.lead { font-size: clamp(1.125rem, 1.7vw, 1.3rem); color: var(--ink-soft); max-
 .m-break { display: none; }
 @media (max-width: 560px) {
   .hero-ctas { flex-direction: column; align-items: stretch; }
-  .hero-ctas .btn { width: 100%; justify-content: center; white-space: nowrap; }
+  .hero-ctas .btn { width: 100%; justify-content: center; text-align: center; }
   .hero-ctas .btn svg { display: none; }
   .m-break { display: inline; }
   .hero-ctas .btn-label { text-align: center; line-height: 1.25; }
