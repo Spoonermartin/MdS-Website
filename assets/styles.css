@@ -230,6 +230,10 @@ p.lead { font-size: clamp(1.125rem, 1.7vw, 1.3rem); color: var(--ink-soft); max-
 .hero-ctas { display: flex; gap: var(--s-2); flex-wrap: wrap; margin-bottom: var(--s-5); }
 .hero-proof { display: flex; gap: clamp(2rem, 5vw, 4.5rem); flex-wrap: wrap; border-top: 1px solid rgba(255,255,255,0.14); padding-top: var(--s-3); }
 @media (max-width: 600px) { .hero-proof { flex-direction: column; gap: 1.5rem; } }
+@media (max-width: 560px) {
+  .hero-ctas { flex-direction: column; align-items: stretch; }
+  .hero-ctas .btn { width: 100%; justify-content: center; white-space: nowrap; }
+}
 .hero-proof .stat-num { display: block; font-family: var(--font-display); font-size: clamp(2.4rem, 3.8vw, 3.2rem); color: var(--gold-400); line-height: 1.1; font-weight: 700; }
 /* Label text only — direct child span, not the counter span inside stat-num */
 .hero-proof .stat > span { font-size: clamp(0.92rem, 1.1vw, 1rem); color: rgba(255,255,255,0.65); margin-top: 0.3rem; display: block; }
