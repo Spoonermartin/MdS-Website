@@ -21,6 +21,8 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="icon" href="favicon.ico" sizes="any">
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
@@ -70,7 +72,7 @@
 <!-- ===================== HERO IMAGE ===================== -->
 <section class="section section--white" style="padding-block-start:0;padding-block-end:0;">
   <div class="visual" style="max-height:520px;overflow:hidden;">
-    <img src="assets/portfolio/apex-counsel.png?v=2" alt="Apex Counsel legal services website" style="width:100%;object-fit:cover;object-position:top;">
+    <picture><source type="image/webp" srcset="assets/portfolio/apex-counsel.webp?v=2"><img src="assets/portfolio/apex-counsel.png?v=2" alt="Apex Counsel legal services website" style="width:100%;object-fit:cover;object-position:top;" width="800" height="423"></picture>
   </div>
 </section>
 
@@ -132,21 +134,21 @@
     </div>
     <div class="work-grid">
       <a class="work-card" href="project-christs-college">
-          <div class="thumb"><img src="assets/portfolio/christs-college.png?v=2" alt="Christ's College Hospitality website homepage" loading="lazy"></div>
+          <div class="thumb"><picture><source type="image/webp" srcset="assets/portfolio/christs-college.webp?v=2"><img src="assets/portfolio/christs-college.png?v=2" alt="Christ's College Hospitality website homepage" loading="lazy" width="790" height="423"></picture></div>
           <div class="body">
             <div class="tags"><span class="tag">Education</span><span class="tag">Hospitality</span></div>
             <h3>Christ's College Hospitality</h3>
             <p class="muted">Christ's College Cambridge needed its commercial bed & breakfast to compete head-to-head w…</p>
           </div>
         </a><a class="work-card" href="project-clover-coaching">
-          <div class="thumb"><img src="assets/portfolio/clover-coaching.png?v=2" alt="Clover Coaching website homepage" loading="lazy"></div>
+          <div class="thumb"><picture><source type="image/webp" srcset="assets/portfolio/clover-coaching.webp?v=2"><img src="assets/portfolio/clover-coaching.png?v=2" alt="Clover Coaching website homepage" loading="lazy" width="800" height="478"></picture></div>
           <div class="body">
             <div class="tags"><span class="tag">Professional Services</span><span class="tag">Coaching</span></div>
             <h3>Clover Coaching</h3>
             <p class="muted">A Cambridge coaching practice needed to stand out in a crowded, trust-driven market — and …</p>
           </div>
         </a><a class="work-card" href="project-bower-staffing">
-          <div class="thumb"><img src="assets/portfolio/bower-staffing.png?v=2" alt="Bower Staffing Group recruitment website" loading="lazy"></div>
+          <div class="thumb"><picture><source type="image/webp" srcset="assets/portfolio/bower-staffing.webp?v=2"><img src="assets/portfolio/bower-staffing.png?v=2" alt="Bower Staffing Group recruitment website" loading="lazy" width="1600" height="691"></picture></div>
           <div class="body">
             <div class="tags"><span class="tag">Professional Services</span><span class="tag">Recruitment</span></div>
             <h3>Bower Staffing Group</h3>
@@ -213,10 +215,10 @@
     </div>
   </div>
 </footer>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-<script src="assets/animations.js?v=15"></script>
-<script src="assets/main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+<script src="assets/animations.js?v=15" defer></script>
+<script src="assets/main.js" defer></script>
 <script>
 (function () {
   const canvas = document.getElementById('hero-dots');

@@ -21,6 +21,8 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="icon" href="favicon.ico" sizes="any">
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
@@ -71,7 +73,7 @@
 <section class="section">
   <div class="container split">
     <div class="visual reveal" style="align-self: start; background: var(--gold-500);">
-      <img src="Martin MdS Websites.png" alt="Martin, founder of MdS Websites" loading="lazy" style="display:block;">
+      <picture><source type="image/webp" srcset="Martin%20MdS%20Websites.webp"><img src="Martin MdS Websites.png" alt="Martin, founder of MdS Websites" loading="lazy" style="display:block;" width="945" height="945"></picture>
     </div>
     <div>
       <p class="eyebrow">Our Story</p>
@@ -185,10 +187,10 @@
   </div>
 </footer>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-<script src="assets/animations.js?v=15"></script>
-<script src="assets/main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+<script src="assets/animations.js?v=15" defer></script>
+<script src="assets/main.js" defer></script>
 <script>
 (function () {
   const canvas = document.getElementById('hero-dots');
