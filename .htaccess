@@ -1,0 +1,42 @@
+# ============================================================
+# MdS Websites — clean URLs + 301 redirects
+# Hostinger (LiteSpeed/Apache) — mod_rewrite
+# ============================================================
+
+# Don't expose directory listings
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # ----------------------------------------------------------
+  # 1) 301 redirects for old indexed URLs -> current pages
+  #    (from Google site:mdswebsites.co.uk)
+  # ----------------------------------------------------------
+  RewriteRule ^contact-us/?$                    /contact                  [R=301,L,NC]
+  RewriteRule ^our-work-todate/?$               /portfolio                [R=301,L,NC]
+  RewriteRule ^portfolio/transport-elevated/?$  /project-swift-robin      [R=301,L,NC]
+  RewriteRule ^portfolio/clover-coaching/?$     /project-clover-coaching  [R=301,L,NC]
+  # Catch-all for any other old /portfolio/<slug> -> portfolio index
+  RewriteRule ^portfolio/.+                     /portfolio                [R=301,L,NC]
+
+  # ----------------------------------------------------------
+  # 2) Canonicalise the home page (/index, /index.html -> /)
+  # ----------------------------------------------------------
+  RewriteCond %{THE_REQUEST} \s/+index(\.html)?[\s?] [NC]
+  RewriteRule ^ / [R=301,L]
+
+  # ----------------------------------------------------------
+  # 3) Redirect any *.html request to its clean URL (one time)
+  # ----------------------------------------------------------
+  RewriteCond %{THE_REQUEST} \s/+([^?\s]+)\.html[\s?] [NC]
+  RewriteRule ^ /%1 [R=301,L]
+
+  # ----------------------------------------------------------
+  # 4) Internally serve the .html file for a clean URL request
+  # ----------------------------------------------------------
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME}\.html -f
+  RewriteRule ^(.+?)/?$ $1.html [L]
+</IfModule>
