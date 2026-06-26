@@ -3,20 +3,20 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Why every local business needs a blog that actually works | MdS Websites</title>
-<meta name="description" content="A blog isn&#39;t about posting for the sake of it. Done right, it&#39;s one of the most cost-effective ways to win local search and build trust before the first call.">
-<link rel="canonical" href="https://mdswebsites.co.uk/blog/welcome-to-the-mds-blog/">
+<title>Your website isn&#39;t a brochure. Five changes that turn visitors into enquiries | MdS Websites</title>
+<meta name="description" content="Clear CTAs, trust signals in the right places, and pages structured around customer questions — the highest-impact fixes we make on almost every project.">
+<link rel="canonical" href="https://mdswebsites.co.uk/insights/website-conversion/">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="MdS Websites">
-<meta property="og:title" content="Why every local business needs a blog that actually works | MdS Websites">
-<meta property="og:description" content="A blog isn&#39;t about posting for the sake of it. Done right, it&#39;s one of the most cost-effective ways to win local search and build trust before the first call.">
-<meta property="og:url" content="https://mdswebsites.co.uk/blog/welcome-to-the-mds-blog/">
+<meta property="og:title" content="Your website isn&#39;t a brochure. Five changes that turn visitors into enquiries | MdS Websites">
+<meta property="og:description" content="Clear CTAs, trust signals in the right places, and pages structured around customer questions — the highest-impact fixes we make on almost every project.">
+<meta property="og:url" content="https://mdswebsites.co.uk/insights/website-conversion/">
 <meta property="og:image" content="https://mdswebsites.co.uk/assets/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Why every local business needs a blog that actually works | MdS Websites">
-<meta name="twitter:description" content="A blog isn&#39;t about posting for the sake of it. Done right, it&#39;s one of the most cost-effective ways to win local search and build trust before the first call.">
+<meta name="twitter:title" content="Your website isn&#39;t a brochure. Five changes that turn visitors into enquiries | MdS Websites">
+<meta name="twitter:description" content="Clear CTAs, trust signals in the right places, and pages structured around customer questions — the highest-impact fixes we make on almost every project.">
 <meta name="twitter:image" content="https://mdswebsites.co.uk/assets/og-image.png">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -49,24 +49,38 @@
   .related-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1.5rem; }
   @media (max-width: 700px) { .related-grid { grid-template-columns: 1fr; } }
   .post-cover { width: 100%; height: auto; border-radius: var(--radius); margin-bottom: 2rem; }
+  /* Article components (carried over from the original Insights articles) */
+  .speed-stat { display: grid; grid-template-columns: repeat(3,1fr); gap: 1rem; margin: 2rem 0; }
+  .speed-stat-box { background: var(--navy-950); border-radius: var(--radius); padding: 1.25rem 1rem; text-align: center; }
+  .speed-stat-box strong { display: block; font-family: var(--font-display); font-size: 1.8rem; color: var(--gold-400); line-height: 1.1; }
+  .speed-stat-box span { font-size: 0.8rem; color: rgba(255,255,255,0.6); margin-top: 0.3rem; display: block; }
+  @media (max-width: 600px) { .speed-stat { grid-template-columns: 1fr; } }
+  .stat-row { display: grid; grid-template-columns: repeat(3,1fr); gap: 1.5rem; margin: 2rem 0; }
+  .stat-box { background: var(--navy-950); border-radius: var(--radius); padding: 1.5rem; text-align: center; }
+  .stat-box strong { display: block; font-family: var(--font-display); font-size: 2rem; color: var(--gold-400); }
+  .stat-box span { font-size: 0.85rem; color: rgba(255,255,255,0.65); }
+  @media (max-width: 600px) { .stat-row { grid-template-columns: 1fr; } }
+  .review-example { background: var(--cream); border-radius: var(--radius); padding: 1.25rem 1.5rem; margin: 1.5rem 0; border-left: 3px solid var(--gold-500); }
+  .review-example p { font-style: italic; margin-bottom: 0.5rem; font-size: 1rem; }
+  .review-example span { font-size: 0.85rem; color: var(--ink-soft); font-weight: 600; }
 </style>
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Article",
-  "headline": "Why every local business needs a blog that actually works",
-  "description": "A blog isn't about posting for the sake of it. Done right, it's one of the most cost-effective ways to win local search and build trust before the first call.",
+  "headline": "Your website isn't a brochure. Five changes that turn visitors into enquiries",
+  "description": "Clear CTAs, trust signals in the right places, and pages structured around customer questions — the highest-impact fixes we make on almost every project.",
   "image": "https://mdswebsites.co.uk/assets/og-image.png",
-  "datePublished": "2026-06-26T00:00:00.000Z",
-  "dateModified": "2026-06-26T00:00:00.000Z",
+  "datePublished": "2025-05-01T00:00:00.000Z",
+  "dateModified": "2025-05-01T00:00:00.000Z",
   "author": { "@type": "Person", "name": "Martin Spooner" },
   "publisher": {
     "@type": "Organization",
     "name": "MdS Websites",
     "logo": { "@type": "ImageObject", "url": "https://mdswebsites.co.uk/assets/icon-512.png" }
   },
-  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://mdswebsites.co.uk/blog/welcome-to-the-mds-blog/" }
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://mdswebsites.co.uk/insights/website-conversion/" }
 }
 </script>
 
@@ -102,10 +116,10 @@
 <section class="page-hero" style="position:relative;overflow:hidden;">
   <canvas id="hero-dots" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;pointer-events:none;"></canvas>
   <div class="container" style="position:relative;z-index:1;">
-    <p class="crumbs"><a href="/">Home</a> / <a href="/blog">Blog</a> / Content &amp; SEO</p>
-    <div class="article-tags"><span class="tag">Content &amp; SEO</span><span class="tag">4 min read</span></div>
-    <h1>Why every local business needs a blog that actually works</h1>
-    <p class="lead">A blog isn&#39;t about posting for the sake of it. Done right, it&#39;s one of the most cost-effective ways to win local search and earn trust before a customer ever picks up the phone.</p>
+    <p class="crumbs"><a href="/">Home</a> / <a href="/insights">Insights</a> / Conversion</p>
+    <div class="article-tags"><span class="tag">Conversion</span><span class="tag">6 min read</span></div>
+    <h1>Your website isn&#39;t a brochure. Five changes that turn visitors into enquiries</h1>
+    <p class="lead">Most websites describe the business. The best ones guide visitors to a decision. Here are the five highest-impact changes we make on almost every project.</p>
   </div>
 </section>
 
@@ -116,32 +130,47 @@
         <div class="avatar" aria-hidden="true">MS</div>
         <div class="article-meta-text">
           <strong>Martin Spooner</strong>
-          <span>Founder, MdS Websites &nbsp;·&nbsp; June 2026</span>
+          <span>Founder, MdS Websites &nbsp;·&nbsp; May 2025</span>
         </div>
       </div>
 
       
 
-      <p>Most small business websites treat content as an afterthought — a few service pages, a contact form, and that's it. But the businesses winning local search consistently have one thing in common: they answer the questions their customers are actually asking, in public, where Google can see them.</p>
-<p>That's what a blog is for. Not posting for the sake of posting, but building a library of genuinely useful answers that pull in the right visitors and quietly do your selling for you.</p>
-<h2>Search rewards businesses that answer questions</h2>
-<p>Every time someone searches &quot;how much does a new website cost&quot; or &quot;do I need to rebrand,&quot; Google is looking for a page that answers it well. If that page is yours, you've earned a visitor at the exact moment they're considering the thing you sell.</p>
-<p>These visitors arrive warm. They're researching, comparing, getting ready to act — and a clear, helpful article positions you as the obvious choice before a competitor even gets a look in.</p>
+      <p>There's a distinction that most small business owners don't hear often enough: the difference between a website that informs and a website that converts. An informational website tells people what you do. A conversion-led website guides them, step by step, towards picking up the phone, filling in a form, or making a booking.</p>
+<p>Most websites we review for the first time fall into the first category. They're not bad. They're just passive. And passive websites leave money on the table every single day.</p>
 <blockquote>
-<p>Content is the only marketing asset that keeps working long after you've published it. A good article written today can still bring in enquiries in two years' time.</p>
+<p>A brochure sits on a desk waiting to be read. A great website meets the visitor where they are and walks them towards yes.</p>
 </blockquote>
-<h2>Trust is built before the first call</h2>
-<p>By the time a good prospect contacts you, they've usually read several pages of your site. Thoughtful articles do something a service page can't: they show how you think, not just what you charge.</p>
-<p>That's especially true for considered purchases — professional services, hospitality, anything where the customer needs confidence before committing. A blog lets you demonstrate expertise instead of claiming it.</p>
-<h2>What &quot;done right&quot; actually means</h2>
-<p>A blog only works if it's built on what your customers search for, not what you feel like writing about. That means starting with real keyword and question research, writing genuinely useful answers, and making sure each post is fast, well-structured and easy to read on a phone.</p>
-<p>Get those foundations right and a blog becomes one of the best-value marketing investments a local business can make.</p>
+<h2>1. Put one clear call to action on every page</h2>
+<p>This sounds obvious. It rarely is in practice. Most small business websites have either no clear CTA, or three competing ones — &quot;Call us,&quot; &quot;Email us,&quot; &quot;Get a quote,&quot; &quot;Download our guide,&quot; all jostling for attention at the same time.</p>
+<p>When everything is emphasised, nothing is. Every page should have one primary action you want the visitor to take, and everything else on that page should build towards it. For most service businesses, that primary action is an enquiry — a call, a form, a booking.</p>
+<p>Pick it, make it prominent, make it specific (&quot;Book a free 20-minute call&quot; beats &quot;Contact us&quot; every time), and remove distractions that compete with it.</p>
+<h2>2. Answer the question visitors are actually asking</h2>
+<p>When someone lands on a service page, they're not thinking &quot;tell me about yourself.&quot; They're thinking: <em>Can this person solve my problem? Are they right for me? What will this cost? How long will it take?</em></p>
+<p>Structure every service page around those questions — in roughly that order. Lead with the problem you solve and who you solve it for. Follow with evidence that you're credible. Then explain your process, address common hesitations, and close with a clear next step.</p>
+<p>Most pages lead with the business. The best pages lead with the customer.</p>
+<h2>3. Move your social proof up the page</h2>
+<p>Reviews and testimonials are some of the most powerful conversion tools available, and most websites bury them at the bottom of the page — after the visitor has already decided whether to trust you or not.</p>
+<p>The fix: put a short, specific testimonial close to the top of your most important pages, ideally near the main CTA. &quot;Martin built our site and we had three enquiries in the first week&quot; does more work near the hero than it does in a footer carousel nobody scrolls to.</p>
+<blockquote>
+<p>Reviews don't belong at the bottom of the page. They belong exactly where doubt first appears.</p>
+</blockquote>
+<h2>4. Reduce friction in your contact form</h2>
+<p>Every field you add to a contact form is a reason to abandon it. Every required field you can't justify is a barrier between you and an enquiry. We regularly see contact forms asking for budget, timeline, company size, and how the person heard about you — all before they've even decided they want to talk.</p>
+<p>For most service businesses, three fields is enough: name, email or phone, and a brief message. You'll get the rest on the call. Cut the form to what's essential and watch completion rates rise.</p>
+<h2>5. Make your mobile experience a first-class citizen</h2>
+<p>More than half of all web traffic is now mobile — and for local searches, the figure is even higher. Yet many websites are built desktop-first and grudgingly squeezed into a mobile layout as an afterthought.</p>
+<p>On mobile, buttons need to be easy to tap. Phone numbers need to be clickable. Forms need to be completable with a thumb. Text needs to be readable without pinching. If any of these fail, you're losing a significant share of your potential enquiries before they've even seen what you offer.</p>
+<p>Test your own site on a phone right now. Would you fill in that form? Would you be able to find the phone number quickly? Be honest with yourself.</p>
+<h2>The compounding effect</h2>
+<p>None of these changes are complicated individually. The power comes from implementing them together — because each one removes a reason not to enquire. A clear CTA tells people what to do. Relevant content tells them you understand them. Social proof tells them they can trust you. A simple form removes the last barrier. A mobile-friendly experience means none of it falls apart in the moment that matters most.</p>
+<p>If you'd like us to review your website against these five criteria and tell you honestly where the biggest opportunities are, we offer a free, no-pressure website review. Most take around 20 minutes and come with specific, actionable recommendations.</p>
 
 
       <div style="margin-top:2.5rem;">
         <a href="/contact" class="btn btn-gold">Start a Project</a>
         &nbsp;&nbsp;
-        <a href="/blog" class="btn btn-navy">Back to Blog</a>
+        <a href="/insights" class="btn btn-navy">Back to Insights</a>
       </div>
     </div>
   </div>
@@ -151,8 +180,44 @@
 
 <section class="section">
   <div class="container">
-    <div class="section-head"><p class="eyebrow">Keep Reading</p><h2>More from the blog</h2></div>
+    <div class="section-head"><p class="eyebrow">Keep Reading</p><h2>More from the Insights blog</h2></div>
     <div class="related-grid">
+      
+        
+          
+          <article class="card post-card">
+            <div class="meta"><span class="tag tag--gold">Content &amp; SEO</span><span>4 min read</span></div>
+            <h3><a href="/insights/welcome-to-the-mds-blog/">Why every local business needs a blog that actually works</a></h3>
+            <p class="muted mt-2">A blog isn&#39;t about posting for the sake of it. Done right, it&#39;s one of the most cost-effective ways to win...</p>
+            <a class="text-link card-link" href="/insights/welcome-to-the-mds-blog/">Read article</a>
+          </article>
+        
+      
+        
+          
+          <article class="card post-card">
+            <div class="meta"><span class="tag tag--gold">Local SEO</span><span>8 min read</span></div>
+            <h3><a href="/insights/near-me-searches/">Why &quot;near me&quot; searches are the biggest opportunity your business is ignoring</a></h3>
+            <p class="muted mt-2">High-intent local searches convert at several times the rate of general traffic — yet most SME websites aren&#39;t...</p>
+            <a class="text-link card-link" href="/insights/near-me-searches/">Read article</a>
+          </article>
+        
+      
+        
+      
+        
+          
+          <article class="card post-card">
+            <div class="meta"><span class="tag tag--gold">Branding</span><span>7 min read</span></div>
+            <h3><a href="/insights/refresh-or-rebrand/">Refresh or rebrand? How to know which your business actually needs</a></h3>
+            <p class="muted mt-2">A full rebrand isn&#39;t always the answer — and sometimes it&#39;s exactly the answer. Here&#39;s a practical framework...</p>
+            <a class="text-link card-link" href="/insights/refresh-or-rebrand/">Read article</a>
+          </article>
+        
+      
+        
+      
+        
       
         
       

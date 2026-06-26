@@ -1,26 +1,23 @@
-{%- set canonical = site.url + site.blogBase + page.url -%}
-{%- set ogimg = site.ogImage -%}
-{%- if image -%}{%- set ogimg = site.url + image -%}{%- endif -%}
 <!DOCTYPE html>
 <html lang="en-GB">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ title }} | MdS Websites</title>
-<meta name="description" content="{{ description }}">
-<link rel="canonical" href="{{ canonical }}">
-<meta property="og:type" content="{% block ogtype %}website{% endblock %}">
+<title>Insights | MdS Websites</title>
+<meta name="description" content="Practical thinking on branding, websites, SEO and winning more local customers — written for business owners, not marketers.">
+<link rel="canonical" href="https://mdswebsites.co.uk/insights/">
+<meta property="og:type" content="website">
 <meta property="og:site_name" content="MdS Websites">
-<meta property="og:title" content="{{ title }} | MdS Websites">
-<meta property="og:description" content="{{ description }}">
-<meta property="og:url" content="{{ canonical }}">
-<meta property="og:image" content="{{ ogimg }}">
+<meta property="og:title" content="Insights | MdS Websites">
+<meta property="og:description" content="Practical thinking on branding, websites, SEO and winning more local customers — written for business owners, not marketers.">
+<meta property="og:url" content="https://mdswebsites.co.uk/insights/">
+<meta property="og:image" content="https://mdswebsites.co.uk/assets/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{{ title }} | MdS Websites">
-<meta name="twitter:description" content="{{ description }}">
-<meta name="twitter:image" content="{{ ogimg }}">
+<meta name="twitter:title" content="Insights | MdS Websites">
+<meta name="twitter:description" content="Practical thinking on branding, websites, SEO and winning more local customers — written for business owners, not marketers.">
+<meta name="twitter:image" content="https://mdswebsites.co.uk/assets/og-image.png">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -67,7 +64,7 @@
   .review-example p { font-style: italic; margin-bottom: 0.5rem; font-size: 1rem; }
   .review-example span { font-size: 0.85rem; color: var(--ink-soft); font-weight: 600; }
 </style>
-{% block head %}{% endblock %}
+
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -96,7 +93,74 @@
 </header>
 
 <main id="main">
-{% block content %}{% endblock %}
+
+<section class="page-hero" style="position:relative;overflow:hidden;">
+  <canvas id="hero-dots" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;pointer-events:none;"></canvas>
+  <div class="container" style="position:relative;z-index:1;">
+    <p class="crumbs"><a href="/">Home</a> / Insights</p>
+    <p class="eyebrow">Insights</p>
+    <h1>Growth advice without the jargon.</h1>
+    <p class="lead">Practical thinking on branding, websites, SEO and winning more local customers — written for business owners, not marketers.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div class="grid grid-3">
+      
+      <article class="card post-card">
+        <div class="meta"><span class="tag tag--gold">Content &amp; SEO</span><span>4 min read</span></div>
+        <h3><a href="/insights/welcome-to-the-mds-blog/">Why every local business needs a blog that actually works</a></h3>
+        <p class="muted mt-2">A blog isn&#39;t about posting for the sake of it. Done right, it&#39;s one of the most cost-effective ways to win local search and build trust before the first call.</p>
+        <a class="text-link card-link" href="/insights/welcome-to-the-mds-blog/">Read article</a>
+      </article>
+      
+      <article class="card post-card">
+        <div class="meta"><span class="tag tag--gold">Local SEO</span><span>8 min read</span></div>
+        <h3><a href="/insights/near-me-searches/">Why &quot;near me&quot; searches are the biggest opportunity your business is ignoring</a></h3>
+        <p class="muted mt-2">High-intent local searches convert at several times the rate of general traffic — yet most SME websites aren&#39;t structured to capture them. Here&#39;s how to change that.</p>
+        <a class="text-link card-link" href="/insights/near-me-searches/">Read article</a>
+      </article>
+      
+      <article class="card post-card">
+        <div class="meta"><span class="tag tag--gold">Conversion</span><span>6 min read</span></div>
+        <h3><a href="/insights/website-conversion/">Your website isn&#39;t a brochure. Five changes that turn visitors into enquiries</a></h3>
+        <p class="muted mt-2">Clear CTAs, trust signals in the right places, and pages structured around customer questions — the highest-impact fixes we make on almost every project.</p>
+        <a class="text-link card-link" href="/insights/website-conversion/">Read article</a>
+      </article>
+      
+      <article class="card post-card">
+        <div class="meta"><span class="tag tag--gold">Branding</span><span>7 min read</span></div>
+        <h3><a href="/insights/refresh-or-rebrand/">Refresh or rebrand? How to know which your business actually needs</a></h3>
+        <p class="muted mt-2">A full rebrand isn&#39;t always the answer — and sometimes it&#39;s exactly the answer. A practical framework for deciding, with real examples of each.</p>
+        <a class="text-link card-link" href="/insights/refresh-or-rebrand/">Read article</a>
+      </article>
+      
+      <article class="card post-card">
+        <div class="meta"><span class="tag tag--gold">Hospitality</span><span>9 min read</span></div>
+        <h3><a href="/insights/direct-bookings/">The true cost of OTA commissions — and how direct bookings change the maths</a></h3>
+        <p class="muted mt-2">15–25% of every booking adds up fast. What accommodation owners should know about building a direct-booking channel that guests actually use.</p>
+        <a class="text-link card-link" href="/insights/direct-bookings/">Read article</a>
+      </article>
+      
+      <article class="card post-card">
+        <div class="meta"><span class="tag tag--gold">Research</span><span>5 min read</span></div>
+        <h3><a href="/insights/competitor-reviews/">What your competitors&#39; reviews reveal about how to win their customers</a></h3>
+        <p class="muted mt-2">Customer review analysis is the most under-used research method in web design. What people complain about elsewhere is your messaging goldmine.</p>
+        <a class="text-link card-link" href="/insights/competitor-reviews/">Read article</a>
+      </article>
+      
+      <article class="card post-card">
+        <div class="meta"><span class="tag tag--gold">Performance</span><span>6 min read</span></div>
+        <h3><a href="/insights/website-speed/">Speed sells: why slow websites quietly lose enquiries every day</a></h3>
+        <p class="muted mt-2">Every extra second of load time costs conversions — especially on mobile, where most local searches happen. How to know if speed is costing you.</p>
+        <a class="text-link card-link" href="/insights/website-speed/">Read article</a>
+      </article>
+      
+    </div>
+  </div>
+</section>
+
 </main>
 
 <footer class="site-footer">
@@ -117,7 +181,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
 <script src="/assets/animations.js?v=15" defer></script>
 <script src="/assets/main.js" defer></script>
-{% raw %}
+
 <script>(function(){const canvas=document.getElementById('hero-dots');if(!canvas||window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;const ctx=canvas.getContext('2d');const GAP=28,RADIUS=120,DPR=window.devicePixelRatio||1;let W,H,dots=[],mouse={x:-9999,y:-9999};function build(){const r=canvas.getBoundingClientRect();W=r.width;H=r.height;canvas.width=W*DPR;canvas.height=H*DPR;ctx.scale(DPR,DPR);dots=[];for(let r=0;r<Math.ceil(H/GAP)+1;r++)for(let c=0;c<Math.ceil(W/GAP)+1;c++)dots.push({x:c*GAP,y:r*GAP,lit:0});}build();window.addEventListener('resize',()=>{ctx.setTransform(1,0,0,1,0,0);build();});const sec=canvas.parentElement;sec.addEventListener('mousemove',e=>{const r=canvas.getBoundingClientRect();mouse.x=e.clientX-r.left;mouse.y=e.clientY-r.top;});sec.addEventListener('mouseleave',()=>{mouse.x=-9999;mouse.y=-9999;});function lerp(a,b,t){return a+(b-a)*t;}function draw(){ctx.clearRect(0,0,W,H);dots.forEach(d=>{const dx=d.x-mouse.x,dy=d.y-mouse.y,dist=Math.sqrt(dx*dx+dy*dy),target=dist<RADIUS?Math.pow(1-dist/RADIUS,1.6):0;d.lit=lerp(d.lit,target,target>d.lit?0.18:0.06);ctx.beginPath();ctx.arc(d.x,d.y+d.lit*-3,1.2+d.lit*2.2,0,Math.PI*2);ctx.fillStyle=`rgba(217,182,106,${(0.10+d.lit*0.7).toFixed(3)})`;ctx.fill();});requestAnimationFrame(draw);}draw();})();</script>
 <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
 <script>
@@ -175,6 +239,6 @@
     }
   });
 </script>
-{% endraw %}
+
 </body>
 </html>

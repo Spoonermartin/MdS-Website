@@ -22,6 +22,19 @@ Options -Indexes
   RewriteRule ^portfolio/.+                     /portfolio                [R=301,L,NC]
 
   # ----------------------------------------------------------
+  #  Insights migrated to CMS-generated /insights/<slug>
+  # ----------------------------------------------------------
+  RewriteRule ^insight-website-speed/?$         /insights/website-speed       [R=301,L,NC]
+  RewriteRule ^insight-near-me-searches/?$      /insights/near-me-searches    [R=301,L,NC]
+  RewriteRule ^insight-website-conversion/?$    /insights/website-conversion  [R=301,L,NC]
+  RewriteRule ^insight-refresh-or-rebrand/?$    /insights/refresh-or-rebrand  [R=301,L,NC]
+  RewriteRule ^insight-direct-bookings/?$       /insights/direct-bookings     [R=301,L,NC]
+  RewriteRule ^insight-competitor-reviews/?$    /insights/competitor-reviews  [R=301,L,NC]
+  # Old /blog section now lives at /insights
+  RewriteRule ^blog/?$                          /insights                     [R=301,L,NC]
+  RewriteRule ^blog/(.+)$                       /insights/$1                  [R=301,L,NC]
+
+  # ----------------------------------------------------------
   # 2) Canonicalise the home page (/index, /index.html -> /)
   # ----------------------------------------------------------
   RewriteCond %{THE_REQUEST} \s/+index(\.html)?[\s?] [NC]

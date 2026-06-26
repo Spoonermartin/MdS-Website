@@ -1,6 +1,6 @@
 ---
-title: "Insights & Blog"
-description: "Practical insights on branding, web design, local SEO and digital marketing for ambitious businesses — from the team at MdS Websites."
+title: "Insights"
+description: "Practical thinking on branding, websites, SEO and winning more local customers — written for business owners, not marketers."
 permalink: "/index.html"
 ---
 {% extends "base.njk" %}
@@ -9,21 +9,22 @@ permalink: "/index.html"
 <section class="page-hero" style="position:relative;overflow:hidden;">
   <canvas id="hero-dots" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;pointer-events:none;"></canvas>
   <div class="container" style="position:relative;z-index:1;">
-    <p class="crumbs"><a href="/">Home</a> / Blog</p>
-    <h1>Insights &amp; Blog</h1>
-    <p class="lead">Practical thinking on branding, websites, local SEO and digital marketing — written to help your business win more of the right customers.</p>
+    <p class="crumbs"><a href="/">Home</a> / Insights</p>
+    <p class="eyebrow">Insights</p>
+    <h1>Growth advice without the jargon.</h1>
+    <p class="lead">Practical thinking on branding, websites, SEO and winning more local customers — written for business owners, not marketers.</p>
   </div>
 </section>
 
-<section class="section section--white">
+<section class="section">
   <div class="container">
-    <div class="related-grid">
+    <div class="grid grid-3">
       {% for post in collections.posts | reverse %}
       <article class="card post-card">
         <div class="meta"><span class="tag tag--gold">{{ post.data.tag }}</span>{% if post.data.readtime %}<span>{{ post.data.readtime }}</span>{% endif %}</div>
-        <h3><a href="/blog{{ post.url }}">{{ post.data.title }}</a></h3>
-        <p class="muted mt-2">{{ post.data.lead | truncate(120) }}</p>
-        <a class="text-link card-link" href="/blog{{ post.url }}">Read article</a>
+        <h3><a href="/insights{{ post.url }}">{{ post.data.title }}</a></h3>
+        <p class="muted mt-2">{{ post.data.description }}</p>
+        <a class="text-link card-link" href="/insights{{ post.url }}">Read article</a>
       </article>
       {% endfor %}
     </div>

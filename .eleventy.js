@@ -33,7 +33,7 @@ module.exports = function (eleventyConfig) {
   return {
     dir: {
       input: "src",
-      output: "blog",
+      output: "insights",
       includes: "_includes",
       data: "_data",
     },

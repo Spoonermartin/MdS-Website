@@ -26,7 +26,7 @@
 <section class="page-hero" style="position:relative;overflow:hidden;">
   <canvas id="hero-dots" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;pointer-events:none;"></canvas>
   <div class="container" style="position:relative;z-index:1;">
-    <p class="crumbs"><a href="/">Home</a> / <a href="/blog">Blog</a> / {{ tag }}</p>
+    <p class="crumbs"><a href="/">Home</a> / <a href="/insights">Insights</a> / {{ tag }}</p>
     <div class="article-tags"><span class="tag">{{ tag }}</span>{% if readtime %}<span class="tag">{{ readtime }}</span>{% endif %}</div>
     <h1>{{ title }}</h1>
     <p class="lead">{{ lead }}</p>
@@ -51,7 +51,7 @@
       <div style="margin-top:2.5rem;">
         <a href="/contact" class="btn btn-gold">Start a Project</a>
         &nbsp;&nbsp;
-        <a href="/blog" class="btn btn-navy">Back to Blog</a>
+        <a href="/insights" class="btn btn-navy">Back to Insights</a>
       </div>
     </div>
   </div>
@@ -61,16 +61,16 @@
 {% set shown = 0 %}
 <section class="section">
   <div class="container">
-    <div class="section-head"><p class="eyebrow">Keep Reading</p><h2>More from the blog</h2></div>
+    <div class="section-head"><p class="eyebrow">Keep Reading</p><h2>More from the Insights blog</h2></div>
     <div class="related-grid">
       {% for post in others %}
         {% if post.url != page.url and shown < 3 %}
           {% set shown = shown + 1 %}
           <article class="card post-card">
             <div class="meta"><span class="tag tag--gold">{{ post.data.tag }}</span>{% if post.data.readtime %}<span>{{ post.data.readtime }}</span>{% endif %}</div>
-            <h3><a href="/blog{{ post.url }}">{{ post.data.title }}</a></h3>
+            <h3><a href="/insights{{ post.url }}">{{ post.data.title }}</a></h3>
             <p class="muted mt-2">{{ post.data.lead | truncate(110) }}</p>
-            <a class="text-link card-link" href="/blog{{ post.url }}">Read article</a>
+            <a class="text-link card-link" href="/insights{{ post.url }}">Read article</a>
           </article>
         {% endif %}
       {% endfor %}

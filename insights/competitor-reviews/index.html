@@ -1,26 +1,23 @@
-{%- set canonical = site.url + site.blogBase + page.url -%}
-{%- set ogimg = site.ogImage -%}
-{%- if image -%}{%- set ogimg = site.url + image -%}{%- endif -%}
 <!DOCTYPE html>
 <html lang="en-GB">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>{{ title }} | MdS Websites</title>
-<meta name="description" content="{{ description }}">
-<link rel="canonical" href="{{ canonical }}">
-<meta property="og:type" content="{% block ogtype %}website{% endblock %}">
+<title>What your competitors&#39; reviews reveal about how to win their customers | MdS Websites</title>
+<meta name="description" content="Customer review analysis is the most under-used research method in web design. What people complain about elsewhere is your messaging goldmine.">
+<link rel="canonical" href="https://mdswebsites.co.uk/insights/competitor-reviews/">
+<meta property="og:type" content="article">
 <meta property="og:site_name" content="MdS Websites">
-<meta property="og:title" content="{{ title }} | MdS Websites">
-<meta property="og:description" content="{{ description }}">
-<meta property="og:url" content="{{ canonical }}">
-<meta property="og:image" content="{{ ogimg }}">
+<meta property="og:title" content="What your competitors&#39; reviews reveal about how to win their customers | MdS Websites">
+<meta property="og:description" content="Customer review analysis is the most under-used research method in web design. What people complain about elsewhere is your messaging goldmine.">
+<meta property="og:url" content="https://mdswebsites.co.uk/insights/competitor-reviews/">
+<meta property="og:image" content="https://mdswebsites.co.uk/assets/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{{ title }} | MdS Websites">
-<meta name="twitter:description" content="{{ description }}">
-<meta name="twitter:image" content="{{ ogimg }}">
+<meta name="twitter:title" content="What your competitors&#39; reviews reveal about how to win their customers | MdS Websites">
+<meta name="twitter:description" content="Customer review analysis is the most under-used research method in web design. What people complain about elsewhere is your messaging goldmine.">
+<meta name="twitter:image" content="https://mdswebsites.co.uk/assets/og-image.png">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -67,7 +64,26 @@
   .review-example p { font-style: italic; margin-bottom: 0.5rem; font-size: 1rem; }
   .review-example span { font-size: 0.85rem; color: var(--ink-soft); font-weight: 600; }
 </style>
-{% block head %}{% endblock %}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "What your competitors' reviews reveal about how to win their customers",
+  "description": "Customer review analysis is the most under-used research method in web design. What people complain about elsewhere is your messaging goldmine.",
+  "image": "https://mdswebsites.co.uk/assets/og-image.png",
+  "datePublished": "2025-02-01T00:00:00.000Z",
+  "dateModified": "2025-02-01T00:00:00.000Z",
+  "author": { "@type": "Person", "name": "Martin Spooner" },
+  "publisher": {
+    "@type": "Organization",
+    "name": "MdS Websites",
+    "logo": { "@type": "ImageObject", "url": "https://mdswebsites.co.uk/assets/icon-512.png" }
+  },
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://mdswebsites.co.uk/insights/competitor-reviews/" }
+}
+</script>
+
 </head>
 <body>
 <a class="skip-link" href="#main">Skip to content</a>
@@ -96,7 +112,134 @@
 </header>
 
 <main id="main">
-{% block content %}{% endblock %}
+
+<section class="page-hero" style="position:relative;overflow:hidden;">
+  <canvas id="hero-dots" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;pointer-events:none;"></canvas>
+  <div class="container" style="position:relative;z-index:1;">
+    <p class="crumbs"><a href="/">Home</a> / <a href="/insights">Insights</a> / Research</p>
+    <div class="article-tags"><span class="tag">Research</span><span class="tag">5 min read</span></div>
+    <h1>What your competitors&#39; reviews reveal about how to win their customers</h1>
+    <p class="lead">Customer review analysis is the most under-used research method in web design. What people complain about elsewhere is your messaging goldmine.</p>
+  </div>
+</section>
+
+<section class="section section--white">
+  <div class="container">
+    <div class="article-body">
+      <div class="article-meta">
+        <div class="avatar" aria-hidden="true">MS</div>
+        <div class="article-meta-text">
+          <strong>Martin Spooner</strong>
+          <span>Founder, MdS Websites &nbsp;·&nbsp; February 2025</span>
+        </div>
+      </div>
+
+      
+
+      <p>Before we write a single word of copy for a client's website, we do something that most web designers don't bother with: we read their competitors' reviews. All of them. The five-star ones and the one-star ones, the enthusiastic and the disappointed.</p>
+<p>It takes an hour. It's free. And it consistently produces the most valuable insights of our entire research process — because reviews are the closest thing to unfiltered customer truth that exists on the public internet.</p>
+<blockquote>
+<p>Your competitors' unhappy customers are telling you exactly what to promise — and exactly what to prove.</p>
+</blockquote>
+<h2>What you're actually looking for</h2>
+<p>You're not reading reviews to enjoy your competitors' failures. You're mining them for two things:</p>
+<p><strong>The complaints.</strong> When customers leave negative reviews, they describe the gap between what they expected and what they got. That gap is your opportunity. If three competitors in your market have reviews mentioning &quot;slow response times,&quot; &quot;didn't feel like they understood my brief,&quot; or &quot;handed off to someone junior&quot; — those are problems you can solve, and solve visibly on your website.</p>
+<p><strong>The praise.</strong> Positive reviews tell you what customers actually value — often in language they'd never use in a formal brief. &quot;They just got it without me having to explain twice.&quot; &quot;Felt like they genuinely cared about the outcome.&quot; &quot;Much more affordable than we expected.&quot; These phrases reveal what matters to your market, often in ways that surprise you.</p>
+<h2>A real example (anonymised)</h2>
+<p>When we worked with a Cambridge-based coaching practice, we read reviews for the five most visible coaching businesses in the area. A clear pattern emerged in the negative reviews across multiple competitors:</p>
+<div class="review-example">
+<p>"Felt like a generic programme that could have been for anyone — not specific to my situation at all."</p>
+<span>1-star review, competing coaching practice</span>
+</div>
+<div class="review-example">
+<p>"Expensive for what it was. The sessions felt formulaic rather than personalised."</p>
+<span>2-star review, competing coaching practice</span>
+</div>
+<p>Both reviews point to the same unmet need: personalisation. So we structured our client's website around exactly that — her bespoke, one-to-one methodology, her approach to understanding each client before any session structure is agreed, the discovery process she uses. The word &quot;personalised&quot; appears in the headline. Not because we invented it — because her competitors' customers told us it mattered.</p>
+<h2>How to do this yourself</h2>
+<ul>
+<li><strong>Identify your 5–8 closest competitors.</strong> The ones you actually lose work to, or would if a customer chose not to use you.</li>
+<li><strong>Read their Google reviews, Trustpilot, Facebook reviews</strong> — wherever they have a meaningful volume (30+ reviews gives you something to work with).</li>
+<li><strong>Keep a running list of complaints and praise.</strong> Group them into themes as you go. After 50–100 reviews, patterns emerge clearly.</li>
+<li><strong>Ask yourself: which of these complaints can we genuinely address?</strong> Don't promise what you can't deliver — but if you can solve a problem your competitors consistently fail on, make it visible on your website.</li>
+<li><strong>Steal the language of the praise.</strong> The words real customers use to describe what they loved are almost always better than anything a copywriter invents. Use them in your headlines, your service descriptions, your testimonial callouts.</li>
+</ul>
+<blockquote>
+<p>The best website copy isn't written by copywriters. It's assembled from what real customers say when they're genuinely happy — or genuinely disappointed.</p>
+</blockquote>
+<h2>Why this feeds into everything</h2>
+<p>The insights from competitor review analysis don't just improve your website copy. They inform your service design (what do customers want that nobody is delivering?), your pricing communication (what do people complain is unclear?), your guarantee or trust signals (what makes people nervous before booking?), and your FAQs (what questions keep coming up in reviews?).</p>
+<p>It's one of the most time-efficient research methods we know — an hour of reading that shapes months of marketing decisions. We do it at the start of every project, and we'd encourage you to do it too, whether or not you're planning a new website.</p>
+
+
+      <div style="margin-top:2.5rem;">
+        <a href="/contact" class="btn btn-gold">Start a Project</a>
+        &nbsp;&nbsp;
+        <a href="/insights" class="btn btn-navy">Back to Insights</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section">
+  <div class="container">
+    <div class="section-head"><p class="eyebrow">Keep Reading</p><h2>More from the Insights blog</h2></div>
+    <div class="related-grid">
+      
+        
+          
+          <article class="card post-card">
+            <div class="meta"><span class="tag tag--gold">Content &amp; SEO</span><span>4 min read</span></div>
+            <h3><a href="/insights/welcome-to-the-mds-blog/">Why every local business needs a blog that actually works</a></h3>
+            <p class="muted mt-2">A blog isn&#39;t about posting for the sake of it. Done right, it&#39;s one of the most cost-effective ways to win...</p>
+            <a class="text-link card-link" href="/insights/welcome-to-the-mds-blog/">Read article</a>
+          </article>
+        
+      
+        
+          
+          <article class="card post-card">
+            <div class="meta"><span class="tag tag--gold">Local SEO</span><span>8 min read</span></div>
+            <h3><a href="/insights/near-me-searches/">Why &quot;near me&quot; searches are the biggest opportunity your business is ignoring</a></h3>
+            <p class="muted mt-2">High-intent local searches convert at several times the rate of general traffic — yet most SME websites aren&#39;t...</p>
+            <a class="text-link card-link" href="/insights/near-me-searches/">Read article</a>
+          </article>
+        
+      
+        
+          
+          <article class="card post-card">
+            <div class="meta"><span class="tag tag--gold">Conversion</span><span>6 min read</span></div>
+            <h3><a href="/insights/website-conversion/">Your website isn&#39;t a brochure. Five changes that turn visitors into enquiries</a></h3>
+            <p class="muted mt-2">Most websites describe the business. The best ones guide visitors to a decision. Here are the five...</p>
+            <a class="text-link card-link" href="/insights/website-conversion/">Read article</a>
+          </article>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="container">
+    <div class="cta-band">
+      <h2>Ready to turn your website into a growth engine?</h2>
+      <p>Book a free, no-pressure 15-minute call. We'll review your current digital presence and map your next steps.</p>
+      <div class="hero-ctas"><a class="btn btn-gold" href="/contact">Book Your Free Growth Call</a><a class="btn btn-ghost" href="/portfolio">See Our Work</a></div>
+    </div>
+  </div>
+</section>
+
 </main>
 
 <footer class="site-footer">
@@ -117,7 +260,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
 <script src="/assets/animations.js?v=15" defer></script>
 <script src="/assets/main.js" defer></script>
-{% raw %}
+
 <script>(function(){const canvas=document.getElementById('hero-dots');if(!canvas||window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;const ctx=canvas.getContext('2d');const GAP=28,RADIUS=120,DPR=window.devicePixelRatio||1;let W,H,dots=[],mouse={x:-9999,y:-9999};function build(){const r=canvas.getBoundingClientRect();W=r.width;H=r.height;canvas.width=W*DPR;canvas.height=H*DPR;ctx.scale(DPR,DPR);dots=[];for(let r=0;r<Math.ceil(H/GAP)+1;r++)for(let c=0;c<Math.ceil(W/GAP)+1;c++)dots.push({x:c*GAP,y:r*GAP,lit:0});}build();window.addEventListener('resize',()=>{ctx.setTransform(1,0,0,1,0,0);build();});const sec=canvas.parentElement;sec.addEventListener('mousemove',e=>{const r=canvas.getBoundingClientRect();mouse.x=e.clientX-r.left;mouse.y=e.clientY-r.top;});sec.addEventListener('mouseleave',()=>{mouse.x=-9999;mouse.y=-9999;});function lerp(a,b,t){return a+(b-a)*t;}function draw(){ctx.clearRect(0,0,W,H);dots.forEach(d=>{const dx=d.x-mouse.x,dy=d.y-mouse.y,dist=Math.sqrt(dx*dx+dy*dy),target=dist<RADIUS?Math.pow(1-dist/RADIUS,1.6):0;d.lit=lerp(d.lit,target,target>d.lit?0.18:0.06);ctx.beginPath();ctx.arc(d.x,d.y+d.lit*-3,1.2+d.lit*2.2,0,Math.PI*2);ctx.fillStyle=`rgba(217,182,106,${(0.10+d.lit*0.7).toFixed(3)})`;ctx.fill();});requestAnimationFrame(draw);}draw();})();</script>
 <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
 <script>
@@ -175,6 +318,6 @@
     }
   });
 </script>
-{% endraw %}
+
 </body>
 </html>

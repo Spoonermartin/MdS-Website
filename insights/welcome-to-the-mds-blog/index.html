@@ -3,20 +3,20 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Insights &amp; Blog | MdS Websites</title>
-<meta name="description" content="Practical insights on branding, web design, local SEO and digital marketing for ambitious businesses — from the team at MdS Websites.">
-<link rel="canonical" href="https://mdswebsites.co.uk/blog/">
-<meta property="og:type" content="website">
+<title>Why every local business needs a blog that actually works | MdS Websites</title>
+<meta name="description" content="A blog isn&#39;t about posting for the sake of it. Done right, it&#39;s one of the most cost-effective ways to win local search and build trust before the first call.">
+<link rel="canonical" href="https://mdswebsites.co.uk/insights/welcome-to-the-mds-blog/">
+<meta property="og:type" content="article">
 <meta property="og:site_name" content="MdS Websites">
-<meta property="og:title" content="Insights &amp; Blog | MdS Websites">
-<meta property="og:description" content="Practical insights on branding, web design, local SEO and digital marketing for ambitious businesses — from the team at MdS Websites.">
-<meta property="og:url" content="https://mdswebsites.co.uk/blog/">
+<meta property="og:title" content="Why every local business needs a blog that actually works | MdS Websites">
+<meta property="og:description" content="A blog isn&#39;t about posting for the sake of it. Done right, it&#39;s one of the most cost-effective ways to win local search and build trust before the first call.">
+<meta property="og:url" content="https://mdswebsites.co.uk/insights/welcome-to-the-mds-blog/">
 <meta property="og:image" content="https://mdswebsites.co.uk/assets/og-image.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Insights &amp; Blog | MdS Websites">
-<meta name="twitter:description" content="Practical insights on branding, web design, local SEO and digital marketing for ambitious businesses — from the team at MdS Websites.">
+<meta name="twitter:title" content="Why every local business needs a blog that actually works | MdS Websites">
+<meta name="twitter:description" content="A blog isn&#39;t about posting for the sake of it. Done right, it&#39;s one of the most cost-effective ways to win local search and build trust before the first call.">
 <meta name="twitter:image" content="https://mdswebsites.co.uk/assets/og-image.png">
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -49,7 +49,40 @@
   .related-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1.5rem; }
   @media (max-width: 700px) { .related-grid { grid-template-columns: 1fr; } }
   .post-cover { width: 100%; height: auto; border-radius: var(--radius); margin-bottom: 2rem; }
+  /* Article components (carried over from the original Insights articles) */
+  .speed-stat { display: grid; grid-template-columns: repeat(3,1fr); gap: 1rem; margin: 2rem 0; }
+  .speed-stat-box { background: var(--navy-950); border-radius: var(--radius); padding: 1.25rem 1rem; text-align: center; }
+  .speed-stat-box strong { display: block; font-family: var(--font-display); font-size: 1.8rem; color: var(--gold-400); line-height: 1.1; }
+  .speed-stat-box span { font-size: 0.8rem; color: rgba(255,255,255,0.6); margin-top: 0.3rem; display: block; }
+  @media (max-width: 600px) { .speed-stat { grid-template-columns: 1fr; } }
+  .stat-row { display: grid; grid-template-columns: repeat(3,1fr); gap: 1.5rem; margin: 2rem 0; }
+  .stat-box { background: var(--navy-950); border-radius: var(--radius); padding: 1.5rem; text-align: center; }
+  .stat-box strong { display: block; font-family: var(--font-display); font-size: 2rem; color: var(--gold-400); }
+  .stat-box span { font-size: 0.85rem; color: rgba(255,255,255,0.65); }
+  @media (max-width: 600px) { .stat-row { grid-template-columns: 1fr; } }
+  .review-example { background: var(--cream); border-radius: var(--radius); padding: 1.25rem 1.5rem; margin: 1.5rem 0; border-left: 3px solid var(--gold-500); }
+  .review-example p { font-style: italic; margin-bottom: 0.5rem; font-size: 1rem; }
+  .review-example span { font-size: 0.85rem; color: var(--ink-soft); font-weight: 600; }
 </style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Why every local business needs a blog that actually works",
+  "description": "A blog isn't about posting for the sake of it. Done right, it's one of the most cost-effective ways to win local search and build trust before the first call.",
+  "image": "https://mdswebsites.co.uk/assets/og-image.png",
+  "datePublished": "2026-06-26T00:00:00.000Z",
+  "dateModified": "2026-06-26T00:00:00.000Z",
+  "author": { "@type": "Person", "name": "Martin Spooner" },
+  "publisher": {
+    "@type": "Organization",
+    "name": "MdS Websites",
+    "logo": { "@type": "ImageObject", "url": "https://mdswebsites.co.uk/assets/icon-512.png" }
+  },
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://mdswebsites.co.uk/insights/welcome-to-the-mds-blog/" }
+}
+</script>
 
 </head>
 <body>
@@ -83,23 +116,106 @@
 <section class="page-hero" style="position:relative;overflow:hidden;">
   <canvas id="hero-dots" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;pointer-events:none;"></canvas>
   <div class="container" style="position:relative;z-index:1;">
-    <p class="crumbs"><a href="/">Home</a> / Blog</p>
-    <h1>Insights &amp; Blog</h1>
-    <p class="lead">Practical thinking on branding, websites, local SEO and digital marketing — written to help your business win more of the right customers.</p>
+    <p class="crumbs"><a href="/">Home</a> / <a href="/insights">Insights</a> / Content &amp; SEO</p>
+    <div class="article-tags"><span class="tag">Content &amp; SEO</span><span class="tag">4 min read</span></div>
+    <h1>Why every local business needs a blog that actually works</h1>
+    <p class="lead">A blog isn&#39;t about posting for the sake of it. Done right, it&#39;s one of the most cost-effective ways to win local search and earn trust before a customer ever picks up the phone.</p>
   </div>
 </section>
 
 <section class="section section--white">
   <div class="container">
+    <div class="article-body">
+      <div class="article-meta">
+        <div class="avatar" aria-hidden="true">MS</div>
+        <div class="article-meta-text">
+          <strong>Martin Spooner</strong>
+          <span>Founder, MdS Websites &nbsp;·&nbsp; June 2026</span>
+        </div>
+      </div>
+
+      
+
+      <p>Most small business websites treat content as an afterthought — a few service pages, a contact form, and that's it. But the businesses winning local search consistently have one thing in common: they answer the questions their customers are actually asking, in public, where Google can see them.</p>
+<p>That's what a blog is for. Not posting for the sake of posting, but building a library of genuinely useful answers that pull in the right visitors and quietly do your selling for you.</p>
+<h2>Search rewards businesses that answer questions</h2>
+<p>Every time someone searches &quot;how much does a new website cost&quot; or &quot;do I need to rebrand,&quot; Google is looking for a page that answers it well. If that page is yours, you've earned a visitor at the exact moment they're considering the thing you sell.</p>
+<p>These visitors arrive warm. They're researching, comparing, getting ready to act — and a clear, helpful article positions you as the obvious choice before a competitor even gets a look in.</p>
+<blockquote>
+<p>Content is the only marketing asset that keeps working long after you've published it. A good article written today can still bring in enquiries in two years' time.</p>
+</blockquote>
+<h2>Trust is built before the first call</h2>
+<p>By the time a good prospect contacts you, they've usually read several pages of your site. Thoughtful articles do something a service page can't: they show how you think, not just what you charge.</p>
+<p>That's especially true for considered purchases — professional services, hospitality, anything where the customer needs confidence before committing. A blog lets you demonstrate expertise instead of claiming it.</p>
+<h2>What &quot;done right&quot; actually means</h2>
+<p>A blog only works if it's built on what your customers search for, not what you feel like writing about. That means starting with real keyword and question research, writing genuinely useful answers, and making sure each post is fast, well-structured and easy to read on a phone.</p>
+<p>Get those foundations right and a blog becomes one of the best-value marketing investments a local business can make.</p>
+
+
+      <div style="margin-top:2.5rem;">
+        <a href="/contact" class="btn btn-gold">Start a Project</a>
+        &nbsp;&nbsp;
+        <a href="/insights" class="btn btn-navy">Back to Insights</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section">
+  <div class="container">
+    <div class="section-head"><p class="eyebrow">Keep Reading</p><h2>More from the Insights blog</h2></div>
     <div class="related-grid">
       
-      <article class="card post-card">
-        <div class="meta"><span class="tag tag--gold">Content &amp; SEO</span><span>4 min read</span></div>
-        <h3><a href="/blog/welcome-to-the-mds-blog/">Why every local business needs a blog that actually works</a></h3>
-        <p class="muted mt-2">A blog isn&#39;t about posting for the sake of it. Done right, it&#39;s one of the most cost-effective ways to win local search...</p>
-        <a class="text-link card-link" href="/blog/welcome-to-the-mds-blog/">Read article</a>
-      </article>
+        
       
+        
+          
+          <article class="card post-card">
+            <div class="meta"><span class="tag tag--gold">Local SEO</span><span>8 min read</span></div>
+            <h3><a href="/insights/near-me-searches/">Why &quot;near me&quot; searches are the biggest opportunity your business is ignoring</a></h3>
+            <p class="muted mt-2">High-intent local searches convert at several times the rate of general traffic — yet most SME websites aren&#39;t...</p>
+            <a class="text-link card-link" href="/insights/near-me-searches/">Read article</a>
+          </article>
+        
+      
+        
+          
+          <article class="card post-card">
+            <div class="meta"><span class="tag tag--gold">Conversion</span><span>6 min read</span></div>
+            <h3><a href="/insights/website-conversion/">Your website isn&#39;t a brochure. Five changes that turn visitors into enquiries</a></h3>
+            <p class="muted mt-2">Most websites describe the business. The best ones guide visitors to a decision. Here are the five...</p>
+            <a class="text-link card-link" href="/insights/website-conversion/">Read article</a>
+          </article>
+        
+      
+        
+          
+          <article class="card post-card">
+            <div class="meta"><span class="tag tag--gold">Branding</span><span>7 min read</span></div>
+            <h3><a href="/insights/refresh-or-rebrand/">Refresh or rebrand? How to know which your business actually needs</a></h3>
+            <p class="muted mt-2">A full rebrand isn&#39;t always the answer — and sometimes it&#39;s exactly the answer. Here&#39;s a practical framework...</p>
+            <a class="text-link card-link" href="/insights/refresh-or-rebrand/">Read article</a>
+          </article>
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="container">
+    <div class="cta-band">
+      <h2>Ready to turn your website into a growth engine?</h2>
+      <p>Book a free, no-pressure 15-minute call. We'll review your current digital presence and map your next steps.</p>
+      <div class="hero-ctas"><a class="btn btn-gold" href="/contact">Book Your Free Growth Call</a><a class="btn btn-ghost" href="/portfolio">See Our Work</a></div>
     </div>
   </div>
 </section>

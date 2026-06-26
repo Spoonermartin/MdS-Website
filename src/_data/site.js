@@ -1,6 +1,6 @@
 module.exports = {
   url: "https://mdswebsites.co.uk",
-  blogBase: "/blog",
+  blogBase: "/insights",
   name: "MdS Websites",
   author: "Martin Spooner",
   authorRole: "Founder, MdS Websites",
