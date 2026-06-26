@@ -1,5 +1,5 @@
 ---
-title: "MdS Websites Enters a New Era: Why We Rebuilt Our Website from the Ground Up"
+title: "MdS Websites Enters a New Era: Why We Rebuilt Our Website from the Ground Up."
 description: >
   Discover how MdS Websites has evolved with a complete website
   rebuild—featuring a modern design, faster performance, and a shift from
