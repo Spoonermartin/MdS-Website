@@ -4,15 +4,12 @@ description: >
   Discover how MdS Websites has evolved with a complete website
   rebuild—featuring a modern design, faster performance, and a shift from
   WordPress to a high-performance static HTML platform.
-lead: >-
+lead: >
   For the past few years, MdS Websites has been helping businesses create
-  websites that don't just look great—they generate enquiries, bookings and
+  websites that don't just look great, they generate enquiries, bookings and
   sales. Today, we're excited to launch the next evolution of our own business
   with a completely redesigned website and an entirely new technical
   foundation. 
-
-
-  This isn't just a visual refresh. It's a complete rethink of how modern business websites should be designed, built and maintained.
 tag: Insights
 readtime: 010 min read
 date: 2026-06-26
