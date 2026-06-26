@@ -5,6 +5,8 @@ on:
     branches: [main]
     paths:
       - "src/**"
+      - "assets/blog/**"
+      - "scripts/**"
       - ".eleventy.js"
       - "package.json"
   workflow_dispatch: {}
@@ -22,26 +24,22 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-
       - name: Set up Node
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-
       - name: Install dependencies
         run: npm install
-
       - name: Build blog
         run: npm run build
-
-      - name: Commit generated blog
+      - name: Commit generated files
         run: |
           git config user.name "mds-blog-bot"
           git config user.email "actions@github.com"
-          git add insights
+          git add -A
           if git diff --staged --quiet; then
-            echo "No blog changes to commit."
+            echo "Nothing to commit."
           else
-            git commit -m "Build blog [skip ci]"
+            git commit -m "Build blog + optimize images [skip ci]"
             git push
           fi
