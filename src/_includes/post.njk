@@ -1,0 +1,90 @@
+{% extends "base.njk" %}
+{% block ogtype %}article{% endblock %}
+
+{% block head %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ title | dump | safe }},
+  "description": {{ description | dump | safe }},
+  "image": "{{ (site.url + image) if image else site.ogImage }}",
+  "datePublished": "{{ page.date.toISOString() }}",
+  "dateModified": "{{ page.date.toISOString() }}",
+  "author": { "@type": "Person", "name": "{{ site.author }}" },
+  "publisher": {
+    "@type": "Organization",
+    "name": "MdS Websites",
+    "logo": { "@type": "ImageObject", "url": "https://mdswebsites.co.uk/assets/icon-512.png" }
+  },
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "{{ site.url + site.blogBase + page.url }}" }
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<section class="page-hero" style="position:relative;overflow:hidden;">
+  <canvas id="hero-dots" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;pointer-events:none;"></canvas>
+  <div class="container" style="position:relative;z-index:1;">
+    <p class="crumbs"><a href="/">Home</a> / <a href="/blog">Blog</a> / {{ tag }}</p>
+    <div class="article-tags"><span class="tag">{{ tag }}</span>{% if readtime %}<span class="tag">{{ readtime }}</span>{% endif %}</div>
+    <h1>{{ title }}</h1>
+    <p class="lead">{{ lead }}</p>
+  </div>
+</section>
+
+<section class="section section--white">
+  <div class="container">
+    <div class="article-body">
+      <div class="article-meta">
+        <div class="avatar" aria-hidden="true">{{ site.author | initials }}</div>
+        <div class="article-meta-text">
+          <strong>{{ site.author }}</strong>
+          <span>{{ site.authorRole }} &nbsp;·&nbsp; {{ page.date | monthYear }}</span>
+        </div>
+      </div>
+
+      {% if image %}<img class="post-cover" src="{{ image }}" alt="{{ title }}">{% endif %}
+
+      {{ content | safe }}
+
+      <div style="margin-top:2.5rem;">
+        <a href="/contact" class="btn btn-gold">Start a Project</a>
+        &nbsp;&nbsp;
+        <a href="/blog" class="btn btn-navy">Back to Blog</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% set others = collections.posts | reverse %}
+{% set shown = 0 %}
+<section class="section">
+  <div class="container">
+    <div class="section-head"><p class="eyebrow">Keep Reading</p><h2>More from the blog</h2></div>
+    <div class="related-grid">
+      {% for post in others %}
+        {% if post.url != page.url and shown < 3 %}
+          {% set shown = shown + 1 %}
+          <article class="card post-card">
+            <div class="meta"><span class="tag tag--gold">{{ post.data.tag }}</span>{% if post.data.readtime %}<span>{{ post.data.readtime }}</span>{% endif %}</div>
+            <h3><a href="/blog{{ post.url }}">{{ post.data.title }}</a></h3>
+            <p class="muted mt-2">{{ post.data.lead | truncate(110) }}</p>
+            <a class="text-link card-link" href="/blog{{ post.url }}">Read article</a>
+          </article>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="container">
+    <div class="cta-band">
+      <h2>Ready to turn your website into a growth engine?</h2>
+      <p>Book a free, no-pressure 15-minute call. We'll review your current digital presence and map your next steps.</p>
+      <div class="hero-ctas"><a class="btn btn-gold" href="/contact">Book Your Free Growth Call</a><a class="btn btn-ghost" href="/portfolio">See Our Work</a></div>
+    </div>
+  </div>
+</section>
+{% endblock %}

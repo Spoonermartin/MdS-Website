@@ -1,0 +1,35 @@
+backend:
+  name: github
+  repo: Spoonermartin/MdS-Website
+  branch: main
+  # The free OAuth helper you deploy (Cloudflare) — REPLACE with your own URL:
+  base_url: https://REPLACE-ME.pages.dev
+  auth_endpoint: auth
+
+# Where uploaded blog images are stored (committed to the repo, served by Hostinger)
+media_folder: "assets/blog"
+public_folder: "/assets/blog"
+
+site_url: https://mdswebsites.co.uk
+display_url: https://mdswebsites.co.uk
+logo_url: https://mdswebsites.co.uk/assets/icon-512.png
+
+collections:
+  - name: blog
+    label: Blog Posts
+    label_singular: Blog Post
+    description: "Add or edit articles for the /blog section."
+    folder: "src/posts"
+    create: true
+    slug: "{{slug}}"
+    preview_path: "blog/{{slug}}"
+    sortable_fields: [date, title]
+    fields:
+      - { label: Title, name: title, widget: string, hint: "Shown as the main headline and the browser tab title." }
+      - { label: "Meta description (for Google)", name: description, widget: text, hint: "1–2 sentences. This is what shows under the title in search results." }
+      - { label: "Lead / intro paragraph", name: lead, widget: text, hint: "The large intro line under the headline." }
+      - { label: "Category tag", name: tag, widget: string, default: "Insights", hint: "e.g. Local SEO, Branding, Web Design." }
+      - { label: "Read time", name: readtime, widget: string, default: "5 min read", required: false }
+      - { label: "Publish date", name: date, widget: datetime, date_format: "DD MMM YYYY", time_format: false, format: "YYYY-MM-DD" }
+      - { label: "Cover image (optional)", name: image, widget: image, required: false, hint: "Optional image shown at the top of the article." }
+      - { label: "Article body", name: body, widget: markdown }

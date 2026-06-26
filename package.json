@@ -1,0 +1,13 @@
+{
+  "name": "mds-websites",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MdS Websites — static site with Eleventy-powered blog",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
