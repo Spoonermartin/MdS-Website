@@ -6,7 +6,7 @@ description: >
   business growth.
 lead: >
   For the past few years, MdS Websites has been helping businesses create
-  websites that don't just look great—they generate enquiries, bookings and
+  websites that don't just look great, they generate enquiries, bookings and
   sales. This isn't just a visual refresh. It's a complete rethink of how modern
   business websites should be designed, built and maintained.
 tag: Insights
@@ -20,9 +20,9 @@ Today, we're excited to launch the next evolution of our own business with a com
 
 As our business has evolved, so has our approach to website design.
 
-The previous MdS Websites website served us well, but it represented who we were several years ago—a WordPress agency focused primarily on creating Elementor websites.
+The previous MdS Websites website served us well, but it represented who we were several years ago, a WordPress agency focused primarily on creating Elementor websites.
 
-Today our work goes much further.
+Today, our work goes much further.
 
 We help businesses develop their brand, create conversion-focused websites, improve their search visibility and implement digital marketing strategies that generate measurable growth. Our new identity reflects that broader vision. ([MdS Websites](https://mdswebsites.co.uk/about.html?utm_source=chatgpt.com "About MdS Websites | Cambridge Digital Growth Studio"))
 
@@ -52,7 +52,7 @@ Our old website was built using **WordPress and Elementor**.
 
 Our new website has been built as a **modern static HTML website**, designed and developed using an AI-assisted code workflow.
 
-For many businesses this represents the future of website development.
+For many businesses, this represents the future of website development.
 
 ### Why make the change?
 
@@ -70,7 +70,7 @@ Rather than relying on dozens of plugins and a database-driven CMS, we now creat
 
 Static websites are significantly faster than traditional WordPress sites.
 
-Without database queries or heavy plugin processing, pages load almost instantly, creating a better experience for users and helping improve search engine performance.
+Without database queries or heavy plugin processing, pages load almost instantly, creating a better user experience and improving search engine performance.
 
 - - -
 
@@ -176,7 +176,7 @@ We'll continue exploring modern development workflows, AI-assisted coding and pe
 
 Our goal remains exactly the same:
 
-**To build websites that become valuable business assets—not just online brochures.**
+**To build websites that become valuable business assets, not just online brochures.**
 
 If you're considering redesigning your website or moving away from a traditional WordPress build, we'd love to show you what's possible.
 
