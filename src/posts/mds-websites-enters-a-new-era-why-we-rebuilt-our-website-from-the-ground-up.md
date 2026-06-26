@@ -1,21 +1,22 @@
 ---
 title: "MdS Websites Enters a New Era: Why We Rebuilt Our Website from the Ground Up"
 description: >
-  Discover how MdS Websites has evolved with a complete website
-  rebuild—featuring a modern design, faster performance, and a shift from
-  WordPress to a high-performance static HTML platform.
+  MdS Websites unveils a complete website rebuild combining a fresh visual
+  identity with a faster, more secure static HTML platform designed to drive
+  business growth.
 lead: >
   For the past few years, MdS Websites has been helping businesses create
-  websites that don't just look great, they generate enquiries, bookings and
-  sales. Today, we're excited to launch the next evolution of our own business
-  with a completely redesigned website and an entirely new technical
-  foundation. 
+  websites that don't just look great—they generate enquiries, bookings and
+  sales. This isn't just a visual refresh. It's a complete rethink of how modern
+  business websites should be designed, built and maintained.
 tag: Insights
-readtime: 010 min read
+readtime: 10 min read
 date: 2026-06-26
-image: assets/blog/screenshot-2026-06-26-at-14.55.55.png
+image: /assets/blog/screenshot-2026-06-26-at-14.55.55.png
 ---
 ## A New Look That Reflects Our Future
+
+Today, we're excited to launch the next evolution of our own business with a completely redesigned website and an entirely new technical foundation.
 
 As our business has evolved, so has our approach to website design.
 
@@ -23,7 +24,7 @@ The previous MdS Websites website served us well, but it represented who we were
 
 Today our work goes much further.
 
-We help businesses develop their brand, create conversion-focused websites, improve their search visibility and implement digital marketing strategies that generate measurable growth. Our new identity reflects that broader vision. ([MdS Websites][1])
+We help businesses develop their brand, create conversion-focused websites, improve their search visibility and implement digital marketing strategies that generate measurable growth. Our new identity reflects that broader vision. ([MdS Websites](https://mdswebsites.co.uk/about.html?utm_source=chatgpt.com "About MdS Websites | Cambridge Digital Growth Studio"))
 
 ### What's changed?
 
@@ -41,9 +42,9 @@ Rather than overwhelming visitors with information, the new site concentrates on
 
 **"How can we help your business grow?"**
 
----
+- - -
 
-# Moving Beyond WordPress
+### Moving Beyond WordPress
 
 Perhaps the biggest change isn't something visitors immediately notice.
 
@@ -53,7 +54,7 @@ Our new website has been built as a **modern static HTML website**, designed and
 
 For many businesses this represents the future of website development.
 
-## Why make the change?
+### Why make the change?
 
 Over the last year, website development has changed dramatically.
 
@@ -61,19 +62,19 @@ Modern coding tools and AI-assisted development now allow us to build bespoke we
 
 Rather than relying on dozens of plugins and a database-driven CMS, we now create lightweight, hand-crafted websites that are optimised from the very beginning.
 
----
+- - -
 
-# The Benefits of Static HTML Websites
+## The Benefits of Static HTML Websites
 
-## 1. Incredible Performance
+### 1. Incredible Performance
 
 Static websites are significantly faster than traditional WordPress sites.
 
 Without database queries or heavy plugin processing, pages load almost instantly, creating a better experience for users and helping improve search engine performance.
 
----
+- - -
 
-## 2. Better Security
+### 2. Better Security
 
 WordPress powers millions of websites—but that popularity also makes it a frequent target for attacks.
 
@@ -86,9 +87,9 @@ Static HTML websites have:
 
 For many businesses, that means greater peace of mind.
 
----
+- - -
 
-## 3. Less Maintenance
+### 3. Less Maintenance
 
 Traditional WordPress websites require:
 
@@ -100,17 +101,17 @@ Traditional WordPress websites require:
 
 A static website removes much of that ongoing maintenance while remaining incredibly reliable.
 
----
+- - -
 
-## 4. Complete Design Freedom
+### 4. Complete Design Freedom
 
 Instead of being constrained by page builders or templates, every section of the website can be designed exactly as intended.
 
 This allows us to create cleaner interfaces, smoother animations and more distinctive branding without compromise.
 
----
+- - -
 
-## 5. AI-Driven Development
+### 5. AI-Driven Development
 
 One of the biggest shifts has been adopting an AI-assisted development workflow.
 
@@ -126,9 +127,9 @@ This enables us to:
 
 The result is a website that feels bespoke because it genuinely is.
 
----
+- - -
 
-# Better SEO Starts With Better Foundations
+## Better SEO Starts With Better Foundations
 
 A fast website is only part of good SEO.
 
@@ -142,11 +143,11 @@ The new MdS Websites platform has been built with search performance in mind, in
 * simplified navigation
 * improved metadata implementation
 
-These technical improvements create a stronger platform for long-term organic growth. While no rebuild guarantees higher rankings on its own, a faster, well-structured site provides a much better foundation for SEO. ([MdS Websites][2])
+These technical improvements create a stronger platform for long-term organic growth. While no rebuild guarantees higher rankings on its own, a faster, well-structured site provides a much better foundation for SEO. ([MdS Websites](https://mdswebsites.co.uk/services?utm_source=chatgpt.com "Services | Branding, Web Design & Digital Marketing"))
 
----
+- - -
 
-# A Better Experience for Clients
+## A Better Experience for Clients
 
 The redesign isn't just about our own website.
 
@@ -163,9 +164,9 @@ We now offer businesses:
 
 Every project is designed around helping businesses generate more enquiries, more bookings and more sales—not simply creating an attractive website.
 
----
+- - -
 
-# Looking Ahead
+### Looking Ahead
 
 Technology never stands still, and neither do we.
 
@@ -180,6 +181,3 @@ Our goal remains exactly the same:
 If you're considering redesigning your website or moving away from a traditional WordPress build, we'd love to show you what's possible.
 
 **Welcome to the new MdS Websites.**
-
-[1]: https://mdswebsites.co.uk/about.html?utm_source=chatgpt.com "About MdS Websites | Cambridge Digital Growth Studio"
-[2]: https://mdswebsites.co.uk/services?utm_source=chatgpt.com "Services | Branding, Web Design & Digital Marketing"

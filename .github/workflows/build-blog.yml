@@ -38,7 +38,7 @@ jobs:
         run: |
           git config user.name "mds-blog-bot"
           git config user.email "actions@github.com"
-          git add blog
+          git add insights
           if git diff --staged --quiet; then
             echo "No blog changes to commit."
           else
