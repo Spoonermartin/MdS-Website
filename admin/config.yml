@@ -43,8 +43,9 @@ collections:
     folder: "src/posts"
     create: true
     slug: "{{slug}}"
-    preview_path: "blog/{{slug}}"
-    sortable_fields: [date, title]
+    preview_path: "insights/{{slug}}"
+    summary: "{{draft | ternary('🔴 DRAFT — ','')}}{{title}}"
+    sortable_fields: [draft, date, title]
     fields:
       - { label: "Draft (hide from live site until unticked)", name: draft, widget: boolean, default: false, required: false, hint: "Auto-generated posts arrive as drafts. Untick and Publish to push live." }
       - { label: Title, name: title, widget: string, hint: "Shown as the main headline and the browser tab title." }
