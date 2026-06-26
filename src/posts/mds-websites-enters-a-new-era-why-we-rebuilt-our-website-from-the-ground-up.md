@@ -44,7 +44,7 @@ Rather than overwhelming visitors with information, the new site concentrates on
 
 - - -
 
-## Moving Beyond WordPress
+### Moving Beyond WordPress
 
 Perhaps the biggest change isn't something visitors immediately notice.
 
@@ -54,7 +54,7 @@ Our new website has been built as a **modern static HTML website**, designed and
 
 For many businesses this represents the future of website development.
 
-## Why make the change?
+### Why make the change?
 
 Over the last year, website development has changed dramatically.
 
@@ -66,7 +66,7 @@ Rather than relying on dozens of plugins and a database-driven CMS, we now creat
 
 ## The Benefits of Static HTML Websites
 
-## 1. Incredible Performance
+### 1. Incredible Performance
 
 Static websites are significantly faster than traditional WordPress sites.
 
@@ -74,7 +74,7 @@ Without database queries or heavy plugin processing, pages load almost instantly
 
 - - -
 
-## 2. Better Security
+### 2. Better Security
 
 WordPress powers millions of websites—but that popularity also makes it a frequent target for attacks.
 
@@ -89,7 +89,7 @@ For many businesses, that means greater peace of mind.
 
 - - -
 
-## 3. Less Maintenance
+### 3. Less Maintenance
 
 Traditional WordPress websites require:
 
@@ -103,7 +103,7 @@ A static website removes much of that ongoing maintenance while remaining incred
 
 - - -
 
-## 4. Complete Design Freedom
+### 4. Complete Design Freedom
 
 Instead of being constrained by page builders or templates, every section of the website can be designed exactly as intended.
 
@@ -111,7 +111,7 @@ This allows us to create cleaner interfaces, smoother animations and more distin
 
 - - -
 
-## 5. AI-Driven Development
+### 5. AI-Driven Development
 
 One of the biggest shifts has been adopting an AI-assisted development workflow.
 
@@ -129,7 +129,7 @@ The result is a website that feels bespoke because it genuinely is.
 
 - - -
 
-# Better SEO Starts With Better Foundations
+## Better SEO Starts With Better Foundations
 
 A fast website is only part of good SEO.
 
@@ -147,7 +147,7 @@ These technical improvements create a stronger platform for long-term organic gr
 
 - - -
 
-# A Better Experience for Clients
+## A Better Experience for Clients
 
 The redesign isn't just about our own website.
 
@@ -166,7 +166,7 @@ Every project is designed around helping businesses generate more enquiries, mor
 
 - - -
 
-# Looking Ahead
+### Looking Ahead
 
 Technology never stands still, and neither do we.
 
