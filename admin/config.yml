@@ -46,6 +46,7 @@ collections:
     preview_path: "blog/{{slug}}"
     sortable_fields: [date, title]
     fields:
+      - { label: "Draft (hide from live site until unticked)", name: draft, widget: boolean, default: false, required: false, hint: "Auto-generated posts arrive as drafts. Untick and Publish to push live." }
       - { label: Title, name: title, widget: string, hint: "Shown as the main headline and the browser tab title." }
       - { label: "Meta description (for Google)", name: description, widget: text, hint: "1–2 sentences. This is what shows under the title in search results." }
       - { label: "Lead / intro paragraph", name: lead, widget: text, hint: "The large intro line under the headline." }

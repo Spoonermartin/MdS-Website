@@ -1,0 +1,10 @@
+{
+  "_comment": "Blog topic queue. The overnight job writes the FIRST 'pending' topic as a draft, then marks it 'drafted'. Add topics by hand, or paste ideas from Claude Blog's `/blog strategy` or `/blog calendar`. Set status back to 'pending' to re-queue.",
+  "queue": [
+    { "topic": "How much should a small business website cost in 2026? An honest breakdown", "status": "pending" },
+    { "topic": "Local SEO checklist: how Cambridge businesses rank in the Google map pack", "status": "pending" },
+    { "topic": "Rebrand or refresh? A decision framework for established local businesses", "status": "pending" },
+    { "topic": "Why your Google Business Profile often matters more than your homepage", "status": "pending" },
+    { "topic": "Five website mistakes quietly costing local businesses enquiries", "status": "pending" }
+  ]
+}

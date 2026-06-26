@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.mds.blogdraft</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/Users/martinspooonerm4/Library/CloudStorage/OneDrive-MdSWebsites/01 - Clients/MdS Websites/1 Design/New Website for MdS Websites/automation/generate-draft.sh</string>
+  </array>
+
+  <!-- Runs Monday, Wednesday, Friday at 02:00 (≈ every other day) -->
+  <key>StartCalendarInterval</key>
+  <array>
+    <dict><key>Weekday</key><integer>1</integer><key>Hour</key><integer>2</integer><key>Minute</key><integer>0</integer></dict>
+    <dict><key>Weekday</key><integer>3</integer><key>Hour</key><integer>2</integer><key>Minute</key><integer>0</integer></dict>
+    <dict><key>Weekday</key><integer>5</integer><key>Hour</key><integer>2</integer><key>Minute</key><integer>0</integer></dict>
+  </array>
+
+  <key>StandardOutPath</key>
+  <string>/Users/martinspooonerm4/Library/CloudStorage/OneDrive-MdSWebsites/01 - Clients/MdS Websites/1 Design/New Website for MdS Websites/automation/logs/launchd.out.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/martinspooonerm4/Library/CloudStorage/OneDrive-MdSWebsites/01 - Clients/MdS Websites/1 Design/New Website for MdS Websites/automation/logs/launchd.err.log</string>
+</dict>
+</plist>
