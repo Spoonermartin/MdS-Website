@@ -4,10 +4,12 @@
   "private": true,
   "description": "MdS Websites — static site with Eleventy-powered blog",
   "scripts": {
-    "build": "eleventy",
+    "optimize": "node scripts/optimize-images.js",
+    "build": "node scripts/optimize-images.js && eleventy",
     "serve": "eleventy --serve"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1"
+    "@11ty/eleventy": "^2.0.1",
+    "sharp": "^0.33.5"
   }
 }
