@@ -60,10 +60,20 @@ Keep the Mac plugged in. (Remove later with `sudo pmset repeat cancel`.)
 
 ## Managing topics
 
-Edit `topics.json`. Add objects to `queue` with `"status": "pending"`. The job
-takes the first pending one each run and marks it `drafted`. To get a batch of
-ideas, run Claude Blog's `/blog strategy` or `/blog calendar` and paste the
-topics in.
+`topics.json` is pre-loaded with 41 posts in the order set by the content
+strategy (`automation/blog-strategy.md`) — the 90-day roadmap first, then the
+remaining cluster spokes. Each entry carries its `title`, `template`, target
+`keyword`, `words`, `tag`, `pillar`, and `slug` (which becomes the URL
+`/insights/<slug>`). The job takes the first `pending` post each run, writes it
+to spec, and marks it `drafted`.
+
+- To reorder, rearrange the objects in `queue` (or change `status`).
+- To skip one, set its `status` to `"skip"`.
+- To add more, append objects with the same fields and `"status": "pending"`.
+
+Note: six "refresh" items in the strategy are updates to your existing posts
+(listed under `_refresh_existing_manually`) — those are edits in `/admin`, not
+auto-generated, so they're deliberately not in the queue.
 
 ## Logs
 

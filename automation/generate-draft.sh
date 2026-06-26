@@ -26,35 +26,16 @@ echo "================ run $STAMP ================"
 # 1) Sync with GitHub first (CMS/bot may have changed things)
 git pull --no-rebase --no-edit || { echo "git pull failed — aborting"; exit 1; }
 
-# 2) Find the next pending topic
-TOPIC="$(node -e '
-const fs=require("fs");
-const d=JSON.parse(fs.readFileSync("automation/topics.json","utf8"));
-const t=(d.queue||[]).find(x=>x.status==="pending");
-process.stdout.write(t ? t.topic : "");
-')"
-if [ -z "$TOPIC" ]; then
-  echo "No pending topics in automation/topics.json — nothing to do."
+# 2) Build the spec-driven prompt for the next pending post (per the strategy order)
+PROMPT="$(node automation/build-prompt.js)"
+if [ -z "$PROMPT" ]; then
+  echo "No pending posts in automation/topics.json — queue complete. Nothing to do."
   exit 0
 fi
-echo "Topic: $TOPIC"
+NEXT="$(node -e 'const d=require("./automation/topics.json");const t=(d.queue||[]).find(x=>x.status==="pending");process.stdout.write(t?(t.order+". "+t.slug):"")')"
+echo "Next post: $NEXT"
 
 # 3) Generate the draft with Claude Code + the Claude Blog skill
-TODAY="$(date +%Y-%m-%d)"
-PROMPT="Use the Claude Blog skill to write ONE high-quality, SEO-optimised blog post for MdS Websites — a Cambridge digital growth agency (branding, web design, local SEO, digital marketing). Topic: \"$TOPIC\".
-
-Save it as a NEW markdown file in the src/posts/ folder. Filename: a short kebab-case slug ending in .md. Do NOT modify any other file.
-
-The YAML frontmatter MUST contain exactly these keys:
-  title:        (compelling, specific headline)
-  description:  (1-2 sentence meta description for Google)
-  lead:         (the large intro line shown under the headline)
-  tag:          (one category, e.g. Local SEO, Branding, Web Design, Conversion)
-  readtime:     (e.g. \"6 min read\")
-  date: $TODAY
-  draft: true
-Then the article body in Markdown: ## headings, bullet lists, and > for pull quotes. British English, 900-1400 words, genuinely useful, no fluff."
-
 claude -p "$PROMPT" --dangerously-skip-permissions 2>&1 | tail -50
 
 # 4) SAFETY NET — force draft:true on the newest post (in case the model omitted it)
