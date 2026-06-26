@@ -16,7 +16,7 @@ lead: >-
 tag: Insights
 readtime: 010 min read
 date: 2026-06-26
-image: /assets/blog/mds_websites_homepage_screenshot.png
+image: /assets/blog/screenshot-2026-06-26-at-14.55.55.png
 ---
 ## A New Look That Reflects Our Future
 
