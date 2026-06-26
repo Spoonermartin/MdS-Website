@@ -1,11 +1,15 @@
 ---
+draft: false
 title: "Web Design for UK Trades Businesses: The Complete 2026 Guide"
-description: "Everything a UK tradesperson needs to know about web design for tradesmen — what makes a trades website generate enquiries, how much it should cost, and how to avoid the mistakes that lose you jobs every day."
-lead: "Your website is the hardest-working member of your team. It quotes jobs at midnight, builds trust before you've picked up the phone, and filters out tyre-kickers before they waste your time."
-tag: "Web Design"
-readtime: "14 min read"
+description: Everything a UK tradesperson needs to know about web design for
+  tradesmen — what makes a trades website generate enquiries, how much it should
+  cost, and how to avoid the mistakes that lose you jobs every day.
+lead: Your website is the hardest-working member of your team. It quotes jobs at
+  midnight, builds trust before you've picked up the phone, and filters out
+  tyre-kickers before they waste your time.
+tag: Web Design
+readtime: 14 min read
 date: 2026-06-26
-draft: true
 ---
 
 Web design for tradesmen in the UK is different from any other sector. Your customers make high-trust decisions under pressure — a burst pipe, a failed boiler, a leaking roof. A well-built trades website tells them, within seconds, that you are local, credible, and ready to help. This guide covers everything you need to get it right.
