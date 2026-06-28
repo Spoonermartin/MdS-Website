@@ -7,7 +7,7 @@ them in `/admin`.
 ## How it works
 
 1. `topics.json` holds a queue of blog topics.
-2. On schedule (Mon/Wed/Fri at 02:00), `generate-draft.sh` runs:
+2. On schedule (Mon & Fri at 02:00), `generate-draft.sh` runs:
    pulls the latest repo → takes the next `pending` topic → has Claude Blog write
    the post into `src/posts/` with `draft: true` → commits & pushes.
 3. The post is **not** built to the live site (draft posts are skipped).
@@ -53,7 +53,7 @@ launchd won't run on a sleeping Mac; by default a missed job runs at next wake.
 To actually run at 02:00, schedule a wake a few minutes before:
 
 ```bash
-sudo pmset repeat wakeorpoweron MWF 01:55:00
+sudo pmset repeat wakeorpoweron MF 01:55:00
 ```
 
 Keep the Mac plugged in. (Remove later with `sudo pmset repeat cancel`.)

@@ -11,11 +11,10 @@
     <string>/Users/martinspooonerm4/Library/CloudStorage/OneDrive-MdSWebsites/01 - Clients/MdS Websites/1 Design/New Website for MdS Websites/automation/generate-draft.sh</string>
   </array>
 
-  <!-- Runs Monday, Wednesday, Friday at 02:00 (≈ every other day) -->
+  <!-- Runs Monday and Friday at 02:00 (twice a week) -->
   <key>StartCalendarInterval</key>
   <array>
     <dict><key>Weekday</key><integer>1</integer><key>Hour</key><integer>2</integer><key>Minute</key><integer>0</integer></dict>
-    <dict><key>Weekday</key><integer>3</integer><key>Hour</key><integer>2</integer><key>Minute</key><integer>0</integer></dict>
     <dict><key>Weekday</key><integer>5</integer><key>Hour</key><integer>2</integer><key>Minute</key><integer>0</integer></dict>
   </array>
 
