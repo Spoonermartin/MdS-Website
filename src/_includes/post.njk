@@ -20,6 +20,17 @@
   "mainEntityOfPage": { "@type": "WebPage", "@id": "{{ site.url + site.blogBase + page.url }}" }
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "{{ site.url }}/" },
+    { "@type": "ListItem", "position": 2, "name": "Insights", "item": "{{ site.url + site.blogBase }}" },
+    { "@type": "ListItem", "position": 3, "name": {{ title | dump | safe }}, "item": "{{ site.url + site.blogBase + page.url }}" }
+  ]
+}
+</script>
 {% endblock %}
 
 {% block content %}

@@ -24,6 +24,7 @@ permalink: "/index.html"
         <div class="meta"><span class="tag tag--gold">{{ post.data.tag }}</span>{% if post.data.readtime %}<span>{{ post.data.readtime }}</span>{% endif %}</div>
         <h3><a href="/insights{{ post.url }}">{{ post.data.title }}</a></h3>
         <p class="muted mt-2">{{ post.data.description }}</p>
+        <div class="meta" style="margin-top:0.75rem;"><span>{{ site.author }}</span><span>·</span><span><time datetime="{{ post.date.toISOString().slice(0,10) }}">{{ post.date | readableDate }}</time></span></div>
         <a class="text-link card-link" href="/insights{{ post.url }}">Read article</a>
       </article>
       {% endfor %}
