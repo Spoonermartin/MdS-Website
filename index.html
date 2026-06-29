@@ -3,6 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script>try{if(sessionStorage.getItem('mdsSeen')){window.__mdsIntro=false;document.documentElement.className+=' mds-seen';}else{window.__mdsIntro=true;sessionStorage.setItem('mdsSeen','1');}}catch(e){window.__mdsIntro=true;}</script>
+<style>.mds-seen .loader{display:none!important}</style>
 <title>Digital Growth Agency in Cambridge | MdS Websites</title>
 <meta name="description" content="MdS Websites is a Cambridge digital growth agency helping ambitious businesses attract more customers through strategic branding, high-performing websites, SEO and digital marketing.">
 <link rel="canonical" href="https://mdswebsites.co.uk/">
@@ -23,12 +25,11 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:wght@400;500;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Inter:wght@400;500;600;700&display=swap"></noscript>
 <link rel="icon" href="favicon.ico?v=2" sizes="any">
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg?v=2">
 <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png?v=2">
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png?v=2">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css">
 <link rel="stylesheet" href="assets/styles.css?v=20">
 <script type="application/ld+json">
 {
@@ -60,7 +61,7 @@
 }
 </script>
 </head>
-<body class="loading">
+<body>
 
 <!-- ===================== LOADER ===================== -->
 <div class="loader" aria-hidden="true">
@@ -431,7 +432,7 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
-<script src="assets/animations.js?v=15" defer></script>
+<script src="assets/animations.js?v=16" defer></script>
 <script src="assets/main.js" defer></script>
 <!-- Hero 3D (Three.js): lazy-loaded after the page is interactive, off the critical path.
      Skipped entirely for reduced-motion or data-saver users. -->
@@ -456,7 +457,6 @@
 })();
 </script>
 <!-- Cookie consent (vanilla-cookieconsent by orestbida) -->
-<script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
 <script>
   function mdsLoadAnalytics(){
     if (document.getElementById('cf-beacon')) return;
@@ -467,6 +467,7 @@
     s.setAttribute('data-cf-beacon', '{"token": "14fab6d4aff94f24b295160b5cf0aec3"}');
     document.body.appendChild(s);
   }
+  function mdsInitCC(){
   CookieConsent.run({
     guiOptions: {
       consentModal: { layout: 'box', position: 'bottom right' },
@@ -511,6 +512,14 @@
       }
     }
   });
+  }
+  (function(){
+    function go(){
+      var l=document.createElement('link');l.rel='stylesheet';l.href='https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css';document.head.appendChild(l);
+      var s=document.createElement('script');s.src='https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js';s.onload=mdsInitCC;document.body.appendChild(s);
+    }
+    ('requestIdleCallback' in window)?requestIdleCallback(go,{timeout:3000}):setTimeout(go,1500);
+  })();
 </script>
 </body>
 </html>
