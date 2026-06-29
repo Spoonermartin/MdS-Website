@@ -24,8 +24,8 @@ permalink: "/index.html"
         <div class="meta"><span class="tag tag--gold">{{ post.data.tag }}</span>{% if post.data.readtime %}<span>{{ post.data.readtime }}</span>{% endif %}</div>
         <h3><a href="/insights{{ post.url }}">{{ post.data.title }}</a></h3>
         <p class="muted mt-2">{{ post.data.description }}</p>
-        <a class="text-link card-link" href="/insights{{ post.url }}">Read article</a>
-        <div class="meta" style="margin-top:0.9rem;margin-bottom:0;padding-top:0.75rem;border-top:1px solid rgba(0,0,0,0.08);"><span>{{ site.author }}</span><span>·</span><span><time datetime="{{ post.date.toISOString().slice(0,10) }}">{{ post.date | readableDate }}</time></span></div>
+        <a class="text-link card-link" href="/insights{{ post.url }}" style="margin-top:auto;">Read article</a>
+        <div class="meta" style="margin-top:1.1rem;margin-bottom:0;"><span>{{ site.author }}</span><span>·</span><span><time datetime="{{ post.date.toISOString().slice(0,10) }}">{{ post.date | readableDate }}</time></span></div>
       </article>
       {% endfor %}
     </div>
