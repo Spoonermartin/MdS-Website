@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.mds.blogdraft</string>
+
+  <!-- Runs from a LOCAL clone (outside OneDrive) so macOS allows background access -->
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/Users/martinspooonerm4/mds-blog-bot/automation/generate-draft.sh</string>
+  </array>
+
+  <!-- Monday and Friday at 02:00 -->
+  <key>StartCalendarInterval</key>
+  <array>
+    <dict><key>Weekday</key><integer>1</integer><key>Hour</key><integer>2</integer><key>Minute</key><integer>0</integer></dict>
+    <dict><key>Weekday</key><integer>5</integer><key>Hour</key><integer>2</integer><key>Minute</key><integer>0</integer></dict>
+  </array>
+
+  <!-- Logs kept outside the repo so they are never committed -->
+  <key>StandardOutPath</key>
+  <string>/Users/martinspooonerm4/Library/Logs/mds-blogbot.out.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/martinspooonerm4/Library/Logs/mds-blogbot.err.log</string>
+</dict>
+</plist>

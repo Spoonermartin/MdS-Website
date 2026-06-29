@@ -16,7 +16,9 @@ set -uo pipefail
 # If `which claude` shows a different folder, add it here.
 export PATH="/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:$HOME/.npm-global/bin:$HOME/.claude/local:$PATH"
 
-REPO="/Users/martinspooonerm4/Library/CloudStorage/OneDrive-MdSWebsites/01 - Clients/MdS Websites/1 Design/New Website for MdS Websites"
+# Operate on whichever repo this script lives in (works from the OneDrive copy
+# for manual runs, and from the local bot clone for the scheduled run).
+REPO="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$REPO" || { echo "Repo not found: $REPO"; exit 1; }
 
 mkdir -p automation/logs
