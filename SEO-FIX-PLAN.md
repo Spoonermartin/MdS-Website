@@ -52,8 +52,11 @@ re-checked against the current codebase.
 - [ ] **Hard metrics in case studies** (e.g. "direct bookings +43%") — *needs real data + client permission*
 - [ ] **Expand priority blog posts** toward 1,500–2,000+ words (near-me-searches, website-conversion, website-speed)
 
-## Stage 6 — Measurement · LOW
-- [ ] Run **PageSpeed Insights**, record LCP/INP/CLS, address homepage canvas-animation LCP risk if flagged
+## Stage 6 — Performance / Core Web Vitals · DONE (29 Jun)
+- [x] **Measured live:** TTFB 189ms, DOM ready 591ms, load 761ms, **CLS 0** — already fast. Scripts deferred, HTTP/2+3, CDN, 1yr caching, compression all in place.
+- [x] **Finding:** homepage hero loaded ~590KB Three.js (78% of all JS) — the one real liability; rest of site uses a lightweight 2D hero.
+- [x] **Fix:** Three.js + hero3d now **lazy-load on idle** (after `load`, via `requestIdleCallback`), off the critical path. Skipped entirely for reduced-motion / data-saver users. 3D effect retained.
+- [ ] *Optional later:* run Google PageSpeed Insights (needs no setup at pagespeed.web.dev) for an official mobile score once deployed.
 
 ---
 

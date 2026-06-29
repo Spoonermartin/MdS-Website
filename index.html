@@ -429,12 +429,32 @@
   </div>
 </footer>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
 <script src="assets/animations.js?v=15" defer></script>
-<script src="assets/hero3d.js" defer></script>
 <script src="assets/main.js" defer></script>
+<!-- Hero 3D (Three.js): lazy-loaded after the page is interactive, off the critical path.
+     Skipped entirely for reduced-motion or data-saver users. -->
+<script>
+(function(){
+  var reduced = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var saveData = navigator.connection && navigator.connection.saveData;
+  if (reduced || saveData || !document.getElementById('hero-canvas')) return;
+  function loadHero(){
+    var three = document.createElement('script');
+    three.src = 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js';
+    three.onload = function(){
+      var hero = document.createElement('script');
+      hero.src = 'assets/hero3d.js?v=2';
+      document.body.appendChild(hero);
+    };
+    document.body.appendChild(three);
+  }
+  function schedule(){ ('requestIdleCallback' in window) ? requestIdleCallback(loadHero, {timeout:2500}) : setTimeout(loadHero, 1200); }
+  if (document.readyState === 'complete') schedule();
+  else window.addEventListener('load', schedule);
+})();
+</script>
 <!-- Cookie consent (vanilla-cookieconsent by orestbida) -->
 <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
 <script>
