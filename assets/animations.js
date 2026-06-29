@@ -14,7 +14,7 @@
   const loaderLogo = document.querySelector('.loader-logo');
   const loaderText = document.querySelector('.loader-text');
 
-  if (loader && !reduced && window.__mdsIntro !== false) {
+  if (loader && !reduced) {
     document.body.style.overflow = 'hidden';
     const loaderTl = gsap.timeline({
       onComplete: () => {

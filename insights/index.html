@@ -23,11 +23,12 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
 <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,600&family=Inter:wght@400;500;600;700&display=swap" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,600&family=Inter:wght@400;500;600;700&display=swap"></noscript>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,600;0,700;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="icon" href="/favicon.ico?v=2" sizes="any">
 <link rel="icon" type="image/svg+xml" href="/assets/favicon.svg?v=2">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png?v=2">
 <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png?v=2">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css">
 <link rel="stylesheet" href="/assets/styles.css?v=20">
 <style>
   .article-body { max-width: 720px; margin: 0 auto; }
@@ -203,10 +204,11 @@
 </footer>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
-<script src="/assets/animations.js?v=16" defer></script>
+<script src="/assets/animations.js?v=15" defer></script>
 <script src="/assets/main.js" defer></script>
 
 <script>(function(){const canvas=document.getElementById('hero-dots');if(!canvas||window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;const ctx=canvas.getContext('2d');const GAP=28,RADIUS=120,DPR=window.devicePixelRatio||1;let W,H,dots=[],mouse={x:-9999,y:-9999};function build(){const r=canvas.getBoundingClientRect();W=r.width;H=r.height;canvas.width=W*DPR;canvas.height=H*DPR;ctx.scale(DPR,DPR);dots=[];for(let r=0;r<Math.ceil(H/GAP)+1;r++)for(let c=0;c<Math.ceil(W/GAP)+1;c++)dots.push({x:c*GAP,y:r*GAP,lit:0});}build();window.addEventListener('resize',()=>{ctx.setTransform(1,0,0,1,0,0);build();});const sec=canvas.parentElement;sec.addEventListener('mousemove',e=>{const r=canvas.getBoundingClientRect();mouse.x=e.clientX-r.left;mouse.y=e.clientY-r.top;});sec.addEventListener('mouseleave',()=>{mouse.x=-9999;mouse.y=-9999;});function lerp(a,b,t){return a+(b-a)*t;}function draw(){ctx.clearRect(0,0,W,H);dots.forEach(d=>{const dx=d.x-mouse.x,dy=d.y-mouse.y,dist=Math.sqrt(dx*dx+dy*dy),target=dist<RADIUS?Math.pow(1-dist/RADIUS,1.6):0;d.lit=lerp(d.lit,target,target>d.lit?0.18:0.06);ctx.beginPath();ctx.arc(d.x,d.y+d.lit*-3,1.2+d.lit*2.2,0,Math.PI*2);ctx.fillStyle=`rgba(217,182,106,${(0.10+d.lit*0.7).toFixed(3)})`;ctx.fill();});requestAnimationFrame(draw);}draw();})();</script>
+<script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
 <script>
   function mdsLoadAnalytics(){
     if (document.getElementById('cf-beacon')) return;
@@ -217,7 +219,6 @@
     s.setAttribute('data-cf-beacon', '{"token": "14fab6d4aff94f24b295160b5cf0aec3"}');
     document.body.appendChild(s);
   }
-  function mdsInitCC(){
   CookieConsent.run({
     guiOptions: {
       consentModal: { layout: 'box', position: 'bottom right' },
@@ -262,14 +263,6 @@
       }
     }
   });
-  }
-  (function(){
-    function go(){
-      var l=document.createElement('link');l.rel='stylesheet';l.href='https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css';document.head.appendChild(l);
-      var s=document.createElement('script');s.src='https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js';s.onload=mdsInitCC;document.body.appendChild(s);
-    }
-    ('requestIdleCallback' in window)?requestIdleCallback(go,{timeout:3000}):setTimeout(go,1500);
-  })();
 </script>
 
 </body>

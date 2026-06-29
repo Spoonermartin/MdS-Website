@@ -56,18 +56,7 @@ re-checked against the current codebase.
 - [x] **Measured live:** TTFB 189ms, DOM ready 591ms, load 761ms, **CLS 0** — already fast. Scripts deferred, HTTP/2+3, CDN, 1yr caching, compression all in place.
 - [x] **Finding:** homepage hero loaded ~590KB Three.js (78% of all JS) — the one real liability; rest of site uses a lightweight 2D hero.
 - [x] **Fix:** Three.js + hero3d now **lazy-load on idle** (after `load`, via `requestIdleCallback`), off the critical path. Skipped entirely for reduced-motion / data-saver users. 3D effect retained.
-- [x] *Measured:* PSI Mobile 84 / Desktop 81 (with lazy Three.js already live).
-
-## Stage 6b — Deep performance pass (29 Jun) — targeting render path
-Baseline 84/81. Changes (no design change for real users):
-- [x] **Fonts non-render-blocking** sitewide — Google Fonts now load via `preload`+swap (`<noscript>` fallback), removing a render-blocking third-party stylesheet on every page.
-- [x] **Cookie consent off the critical path** sitewide — its CSS + JS now load on idle (`requestIdleCallback`) and the banner initialises after; removes a render-blocking stylesheet and a blocking script.
-- [x] **Intro loader = first-visit only** (homepage) — shown once per session via `sessionStorage`; repeat visits paint instantly. `animations.js` guarded so it only runs the loader on the first visit. *(Note: Lighthouse always tests a cold load, so this helps real repeat visitors more than the PSI number.)*
-- [x] Three.js hero already lazy-loaded (Stage 6).
-- [ ] **Verify on live + re-run PSI** after deploy.
-
-### Honest ceiling
-A branded intro loader + Google-hosted fonts + the GSAP/Three animation libraries put a practical cap below a flat 100 on a cold mobile test. The above should lift both scores meaningfully (render-blocking removed, critical path lighter). If you later want to chase a true ~100: self-host the fonts, and consider dropping the intro loader on cold load entirely.
+- [ ] *Optional later:* run Google PageSpeed Insights (needs no setup at pagespeed.web.dev) for an official mobile score once deployed.
 
 ---
 
