@@ -5,7 +5,8 @@
   "description": "MdS Websites — static site with Eleventy-powered blog",
   "scripts": {
     "optimize": "node scripts/optimize-images.js",
-    "build": "node scripts/optimize-images.js && eleventy",
+    "sitemap": "node scripts/generate-sitemap.js",
+    "build": "node scripts/optimize-images.js && eleventy && node scripts/generate-sitemap.js",
     "serve": "eleventy --serve"
   },
   "devDependencies": {
