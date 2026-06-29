@@ -38,11 +38,14 @@ re-checked against the current codebase.
 - [x] **llms.txt** at site root (incl. services, key pages, contact)
 - [x] **Trim homepage `<title>`** → "Digital Growth Agency in Cambridge | MdS Websites" (49 chars)
 
-## Stage 4 — Trust & contact signals (NEEDS YOUR INPUT) · HIGH
-- [ ] **Phone number** added to contact page, footer (sitewide) + `telephone` in schema — *need the number*
-- [ ] **Social profiles + `sameAs`** in schema + footer links — *need LinkedIn / Google Business Profile URLs*
-- [ ] **AggregateRating / Review schema** from the 3 existing testimonials — *need genuine star ratings / source*
-- [ ] **Street address** (optional) — *need to decide whether to publish one*
+## Stage 4 — Trust & contact signals · DONE (29 Jun)
+- [x] **Phone number** (07563 660370 / +447563660370) added to footer sitewide, contact page Phone block, and `telephone` in homepage + contact schema
+- [x] **Social profiles + `sameAs`** — Facebook + YouTube added to footer links and `sameAs` in homepage + contact schema
+- [~] **AggregateRating / Review schema** — *skipped on purpose:* since 2019 Google ignores/penalises self-hosted review markup. Recommended path instead: collect reviews on Google Business Profile / Trustpilot (those earn real stars). Revisit once a GBP exists.
+- [~] **Street address** — *kept city-only for now* (Cambridge, UK). Can add a full street address later for stronger NAP if desired.
+
+### Stage 4 follow-ups still open
+- LinkedIn + Google Business Profile URLs (not yet provided) — add to footer + `sameAs` when available. GBP also unlocks legitimate review stars.
 
 ## Stage 5 — Content depth (larger effort) · MEDIUM
 - [ ] **Internal links** from service pages to relevant case studies (I'll propose the mapping)
