@@ -26,11 +26,11 @@ re-checked against the current codebase.
 - [x] **Schema on missing pages:** `Person` on about, `ItemList` on portfolio, `WebPage` on the 10 case studies, `WebPage` on industries
 - [x] **BreadcrumbList schema** on the 10 case studies (insight-article breadcrumbs moved to Stage 2 — generated files)
 
-## Stage 2 — Insights / blog template (Eleventy build) · MEDIUM-HIGH
-- [ ] **Visible publication date + author name** on insight listing cards (`src/index.njk`)
-- [ ] **BreadcrumbList schema** on insight articles (`src/_includes/post.njk`)
-- [ ] **Table of contents** on longer articles (`src/_includes/post.njk`)
-- [ ] Rebuild (`npm run build`) and verify generated output before commit
+## Stage 2 — Insights / blog template (Eleventy build) · MEDIUM-HIGH ✅ MOSTLY DONE (29 Jun)
+- [x] **Visible publication date + author name** on insight listing cards (`src/index.njk`)
+- [x] **BreadcrumbList schema** on insight articles (`src/_includes/post.njk`)
+- [ ] **Table of contents** on longer articles — *deferred: needs a Markdown heading-anchor plugin (markdown-it-anchor) added to the Eleventy config first; revisit as an opt-in enhancement*
+- [x] Rebuilt with Eleventy; all 18 JSON-LD blocks in `insights/` validated
 
 ## Stage 3 — Technical / server (code only) · MEDIUM
 - [ ] **Security headers** in `.htaccess` (HSTS, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy)
