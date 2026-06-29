@@ -48,7 +48,7 @@ re-checked against the current codebase.
 - LinkedIn + Google Business Profile URLs (not yet provided) — add to footer + `sameAs` when available. GBP also unlocks legitimate review stars.
 
 ## Stage 5 — Content depth (larger effort) · MEDIUM
-- [ ] **Internal links** from service pages to relevant case studies (I'll propose the mapping)
+- [x] **Internal links** from service pages to relevant case studies — "Proof" related-work strip added before the FAQ on each service page (29 Jun): Web Design → Christ's College, Swift Robin, Apex Counsel; Branding → Clover Coaching, Bower Staffing, Apex Counsel; Digital Marketing → Fern & Bloom, Gamekeeper's Cottage, Clover Coaching
 - [ ] **Hard metrics in case studies** (e.g. "direct bookings +43%") — *needs real data + client permission*
 - [ ] **Expand priority blog posts** toward 1,500–2,000+ words (near-me-searches, website-conversion, website-speed)
 
