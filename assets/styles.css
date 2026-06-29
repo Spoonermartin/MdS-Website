@@ -166,7 +166,7 @@ p.lead { font-size: clamp(1.125rem, 1.7vw, 1.3rem); color: var(--ink-soft); max-
 .nav-links a[aria-current="page"] { color: var(--gold-400); border-bottom-color: var(--gold-400); }
 
 /* Dropdown */
-.nav-drop { position: relative; }
+.nav-drop { position: relative; display: flex; align-items: center; }
 .nav-drop > a::after { content: " ▾"; font-size: 0.7em; }
 .nav-drop-menu {
   position: absolute; top: calc(100% + 12px); left: 50%; transform: translateX(-50%) translateY(8px);
@@ -198,6 +198,7 @@ p.lead { font-size: clamp(1.125rem, 1.7vw, 1.3rem); color: var(--ink-soft); max-
   }
   .nav-links .nav-cta { margin-left: 0; }
   .nav-links.open { display: flex; }
+  .nav-drop { display: block; }
   .nav-links > a, .nav-drop > a { font-size: 1.1rem; padding: 0.7rem 0; }
   .nav-drop-menu { position: static; transform: none !important; opacity: 1; visibility: visible; box-shadow: none; background: transparent; padding: 0 0 0 1rem; min-width: 0; }
   .nav-drop:hover .nav-drop-menu, .nav-drop:focus-within .nav-drop-menu { transform: none !important; }
