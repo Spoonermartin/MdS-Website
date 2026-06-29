@@ -81,3 +81,19 @@ Options -Indexes
   # HTML: revalidate frequently so content updates show quickly
   ExpiresByType text/html               "access plus 0 seconds"
 </IfModule>
+
+# ============================================================
+# Security headers
+# ============================================================
+<IfModule mod_headers.c>
+  # Force HTTPS for one year (incl. subdomains)
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+  # Disallow the site being framed by other origins (clickjacking)
+  Header always set X-Frame-Options "SAMEORIGIN"
+  # Stop browsers MIME-sniffing responses away from the declared type
+  Header always set X-Content-Type-Options "nosniff"
+  # Send the origin only on cross-origin requests
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  # Lock down powerful browser features the site doesn't use
+  Header always set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+</IfModule>

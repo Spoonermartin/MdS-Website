@@ -32,11 +32,11 @@ re-checked against the current codebase.
 - [ ] **Table of contents** on longer articles — *deferred: needs a Markdown heading-anchor plugin (markdown-it-anchor) added to the Eleventy config first; revisit as an opt-in enhancement*
 - [x] Rebuilt with Eleventy; all 18 JSON-LD blocks in `insights/` validated
 
-## Stage 3 — Technical / server (code only) · MEDIUM
-- [ ] **Security headers** in `.htaccess` (HSTS, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy)
-- [ ] **Sitemap `lastmod` dates** — replace the blanket `2026-06-14` with real per-page dates
-- [ ] **llms.txt** at site root
-- [ ] **Trim homepage `<title>`** (currently ~82 chars → under 60)
+## Stage 3 — Technical / server (code only) · MEDIUM ✅ DONE (29 Jun)
+- [x] **Security headers** in `.htaccess` (HSTS, X-Frame-Options, X-Content-Type-Options, Referrer-Policy, Permissions-Policy)
+- [x] **Sitemap rebuilt** — removed stale `/insight-*` redirect URLs, added missing posts, real git dates (31 URLs, valid XML). *Note: consider making sitemap a build step to prevent future staleness.*
+- [x] **llms.txt** at site root (incl. services, key pages, contact)
+- [x] **Trim homepage `<title>`** → "Digital Growth Agency in Cambridge | MdS Websites" (49 chars)
 
 ## Stage 4 — Trust & contact signals (NEEDS YOUR INPUT) · HIGH
 - [ ] **Phone number** added to contact page, footer (sitewide) + `telephone` in schema — *need the number*
