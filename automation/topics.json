@@ -32,7 +32,8 @@
       "tag": "Web Design",
       "pillar": "Trades",
       "type": "spoke",
-      "status": "pending"
+      "status": "drafted",
+      "draftedOn": "2026-06-29"
     },
     {
       "order": 3,
