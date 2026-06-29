@@ -167,6 +167,7 @@ p.lead { font-size: clamp(1.125rem, 1.7vw, 1.3rem); color: var(--ink-soft); max-
 
 /* Dropdown */
 .nav-drop { position: relative; display: flex; align-items: center; }
+.nav-drop > a { display: block; }
 .nav-drop > a::after { content: " ▾"; font-size: 0.7em; }
 .nav-drop-menu {
   position: absolute; top: calc(100% + 12px); left: 50%; transform: translateX(-50%) translateY(8px);
