@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: "Electrician Website Design: What Makes Customers Call You First"
 description: A practical guide to electrician website design UK — what your site
   must do to rank locally, build trust instantly, and turn searches into paying
@@ -10,7 +10,7 @@ tag: Web Design
 readtime: 8 min read
 date: 2026-06-29
 ---
-A well-built electrician website does three things simultaneously: it ranks when someone in your area searches for an electrician, it convinces them within seconds that you are qualified and local, and it makes calling you the easiest next step. If your website fails on any one of those three, you are losing jobs today — to electricians who may be less experienced but have a sharper online presence.
+A well-built electrician website does three things simultaneously: it ranks when someone in your area searches for an electrician, it convinces them within seconds that you are qualified and local, and it makes calling you the easiest next step. If your website fails on any one of those three, you are losing jobs today to electricians who may be less experienced but have a sharper online presence.
 
 - - -
 
