@@ -12,10 +12,6 @@ image: ""
 ---
 Nobody visits a slow website and thinks "this business seems unreliable." They just leave. And they usually don't know why. They click back, find a competitor, and move on — and you never find out it happened, because there's no abandonment notification, no missed call alert, no record of the enquiry that never arrived.
 
-
-
-https://youtu.be/g-qW8fQimyg?si=6BocDF4sCWxx1sOU
-
 This is what makes website speed such an insidious problem. The damage is invisible. You can't see the visitors who left before your page finished loading. You can only measure the ones who stayed — which means most website owners are looking at an optimistic subset of their actual traffic.
 
 <div class="speed-stat">
