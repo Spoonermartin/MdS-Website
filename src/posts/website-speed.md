@@ -9,6 +9,7 @@ tag: Performance
 readtime: 6 min read
 date: 2025-01-01
 image: ""
+draft: true
 ---
 Nobody visits a slow website and thinks "this business seems unreliable." They just leave. And they usually don't know why. They click back, find a competitor, and move on — and you never find out it happened, because there's no abandonment notification, no missed call alert, no record of the enquiry that never arrived.
 

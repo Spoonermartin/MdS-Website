@@ -71,7 +71,8 @@
       "tag": "Hospitality",
       "pillar": "Hospitality",
       "type": "pillar",
-      "status": "pending"
+      "status": "drafted",
+      "draftedOn": "2026-07-10"
     },
     {
       "order": 6,
