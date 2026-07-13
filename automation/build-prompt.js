@@ -19,6 +19,9 @@ POST SPEC (from the MdS content strategy — full strategy in automation/blog-st
 - Target length: ${item.words} words
 - Category tag: ${item.tag}
 
+WRITING STYLE (non-negotiable):
+- Never use em dashes (—) or en dashes (–) as punctuation. Use commas, colons, semicolons, or full stops instead.
+
 QUALITY REQUIREMENTS (these posts must be optimised for Google AND AI citations):
 - Open with a 40–60 word answer-first summary paragraph.
 - Phrase 60–70% of H2 headings as questions; each H2 section opens with a 40–60 word answer-first paragraph containing a specific stat or concrete claim.
