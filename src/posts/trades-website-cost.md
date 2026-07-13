@@ -1,20 +1,24 @@
 ---
-title: "How Much Does a Trades Website Cost in the UK? (2026 Honest Breakdown)"
-description: "A straight answer on trades website cost UK — what you pay at every price point, what's actually included, and how to spot a quote that will leave you out of pocket. By MdS Websites, Cambridge."
-lead: "Cost is the first question every trades business asks. Here is the answer most web designers won't give you: what you actually get at each price point, what the hidden costs are, and whether a cheaper option ends up costing you more in lost work."
-tag: "Web Design"
-readtime: "6 min read"
-date: 2026-07-03
 draft: true
+title: How Much Does a Trades Website Cost in the UK? (2026 Honest Breakdown)
+description: A straight answer on trades website cost UK — what you pay at every
+  price point, what's actually included, and how to spot a quote that will leave
+  you out of pocket. By MdS Websites, Cambridge.
+lead: "Cost is the first question every trades business asks. Here is the answer
+  most web designers won't give you: what you actually get at each price point,
+  what the hidden costs are, and whether a cheaper option ends up costing you
+  more in lost work."
+tag: Web Design
+readtime: 6 min read
+date: 2026-07-03
 ---
-
-A trades website in the UK costs between nothing and £5,000 or more — but price and value are rarely the same thing. The right number depends on what is actually included, who is building it, and what you need it to do. This breakdown covers every price tier honestly, the ongoing costs most quotes quietly ignore, and the return on investment calculation that changes the way most trades business owners think about it.
+A trades website in the UK can cost from nothing to £5,000 or more, but price and value are rarely the same. The right price depends on what is actually included, who is building it, and what you need it to do. This breakdown covers every price tier honestly, the ongoing costs most quotes quietly ignore, and the return-on-investment calculation that changes how most trade business owners think about it.
 
 - - -
 
 ## What does a trades website cost in the UK in 2026?
 
-For a professionally built, properly optimised trades website, expect to pay between £2,000 and £5,000. Template-based options from web designers sit between £500 and £1,500. DIY platforms (Wix, Squarespace, GoDaddy) cost £150–£350 per year in subscription fees. According to the Federation of Small Businesses, digital presence is now cited as one of the top three growth priorities for UK small businesses — yet a large number of sole traders still rely on a free Facebook page or an outdated template site that does not rank, does not convert, and does not reflect how good the work actually is.
+For a professionally built, properly optimised trades website, expect to pay between £2,000 and £5,000. Template-based options from web designers range from £500 to £1,500. DIY platforms (Wix, Squarespace, GoDaddy) cost £150–£350 per year in subscription fees. According to the Federation of Small Businesses, digital presence is now cited as one of the top three growth priorities for UK small businesses — yet a large number of sole traders still rely on a free Facebook page or an outdated template site that does not rank, does not convert, and does not reflect how good the work actually is.
 
 I have spoken to hundreds of trades business owners over the years, and the same pattern comes up again and again: the business owner who spent £400 on a mate who "does websites," watched it sit on page four of Google for two years, and then came to someone like me to start again. The first website was not cheap — it just felt cheap at the time. The real cost was the work it did not generate.
 
@@ -94,13 +98,13 @@ The return on a trades website is straightforward to model, and I encourage ever
 
 A realistic model for a well-optimised trades site in a moderately competitive area:
 
-| Metric | Conservative | Realistic |
-|---|---|---|
-| Additional monthly enquiries | 2 | 4–6 |
-| Conversion to paid jobs | 50% | 60–70% |
-| Average job value | £350 | £500 |
-| Monthly additional revenue | £350 | £1,200–£2,100 |
-| Payback on a £3,000 website | ~9 months | ~2–3 months |
+| Metric                       | Conservative | Realistic     |
+| ---------------------------- | ------------ | ------------- |
+| Additional monthly enquiries | 2            | 4–6           |
+| Conversion to paid jobs      | 50%          | 60–70%        |
+| Average job value            | £350         | £500          |
+| Monthly additional revenue   | £350         | £1,200–£2,100 |
+| Payback on a £3,000 website  | ~9 months    | ~2–3 months   |
 
 These are not invented numbers. They reflect what I see from trades businesses that have made the investment in a properly built, properly optimised website. The businesses that get closer to the realistic column are typically those in areas with less local digital competition — which, outside of central London and the major cities, is most of the UK.
 
