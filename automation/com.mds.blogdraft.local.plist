@@ -9,7 +9,7 @@
   <key>ProgramArguments</key>
   <array>
     <string>/bin/bash</string>
-    <string>/Users/martinspooonerm4/mds-blog-bot/automation/generate-draft.sh</string>
+    <string>/Users/martinspooner/mds-blog-bot/automation/generate-draft.sh</string>
   </array>
 
   <!-- Monday and Friday at 02:00 -->
@@ -21,8 +21,8 @@
 
   <!-- Logs kept outside the repo so they are never committed -->
   <key>StandardOutPath</key>
-  <string>/Users/martinspooonerm4/Library/Logs/mds-blogbot.out.log</string>
+  <string>/Users/martinspooner/Library/Logs/mds-blogbot.out.log</string>
   <key>StandardErrorPath</key>
-  <string>/Users/martinspooonerm4/Library/Logs/mds-blogbot.err.log</string>
+  <string>/Users/martinspooner/Library/Logs/mds-blogbot.err.log</string>
 </dict>
 </plist>

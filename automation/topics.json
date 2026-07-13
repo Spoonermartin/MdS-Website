@@ -97,7 +97,8 @@
       "tag": "Hospitality",
       "pillar": "Hospitality",
       "type": "spoke",
-      "status": "pending"
+      "status": "drafted",
+      "draftedOn": "2026-07-13"
     },
     {
       "order": 8,
