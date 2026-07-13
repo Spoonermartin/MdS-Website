@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: "Speed sells: why slow websites quietly lose enquiries every day"
 description: Every extra second of load time costs conversions, especially on
   mobile, where most local searches happen. How to know if speed is costing you.
@@ -8,7 +8,7 @@ lead: >
   most local searches happen. Here's how to know if speed is costing you.
 tag: Performance
 readtime: 6 min read
-date: 2025-01-01
+date: 2026-07-07
 image: ""
 ---
 Nobody visits a slow website and thinks "this business seems unreliable." They just leave. They click back, find a competitor, and move on, and you never find out it happened because there's no abandonment notification, no missed-call alert, no record of the enquiry that never arrived.
