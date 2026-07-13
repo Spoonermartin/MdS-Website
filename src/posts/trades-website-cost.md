@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: How Much Does a Trades Website Cost in the UK? (2026 Honest Breakdown)
 description: A straight answer on trades website cost UK — what you pay at every
   price point, what's actually included, and how to spot a quote that will leave
