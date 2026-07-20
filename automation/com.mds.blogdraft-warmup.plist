@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.mds.blogdraft-warmup</string>
+
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/bash</string>
+    <string>/Users/martinspooner/mds-blog-bot/automation/warm-auth.sh</string>
+  </array>
+
+  <!-- Monday and Friday at 01:55 - 5 minutes before the 02:00 generate-draft run,
+       so a stale OAuth session gets refreshed before the real job needs it. -->
+  <key>StartCalendarInterval</key>
+  <array>
+    <dict><key>Weekday</key><integer>1</integer><key>Hour</key><integer>1</integer><key>Minute</key><integer>55</integer></dict>
+    <dict><key>Weekday</key><integer>5</integer><key>Hour</key><integer>1</integer><key>Minute</key><integer>55</integer></dict>
+  </array>
+
+  <key>StandardOutPath</key>
+  <string>/Users/martinspooner/Library/Logs/mds-blogbot-warmup.out.log</string>
+  <key>StandardErrorPath</key>
+  <string>/Users/martinspooner/Library/Logs/mds-blogbot-warmup.err.log</string>
+</dict>
+</plist>

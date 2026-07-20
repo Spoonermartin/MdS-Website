@@ -38,7 +38,18 @@ NEXT="$(node -e 'const d=require("./automation/topics.json");const t=(d.queue||[
 echo "Next post: $NEXT"
 
 # 3) Generate the draft with Claude Code + the Claude Blog skill
-claude -p "$PROMPT" --dangerously-skip-permissions 2>&1 | tail -50
+# Retry on transient auth failures (OAuth token refresh can go stale overnight)
+# before giving up on the run.
+CLAUDE_OUTPUT=""
+for attempt in 1 2 3; do
+  CLAUDE_OUTPUT="$(claude -p "$PROMPT" --dangerously-skip-permissions 2>&1)"
+  echo "$CLAUDE_OUTPUT" | tail -50
+  if ! echo "$CLAUDE_OUTPUT" | grep -q "authentication_error"; then
+    break
+  fi
+  echo "Attempt $attempt hit an authentication_error — waiting 60s and retrying..."
+  sleep 60
+done
 
 # 4) SAFETY NET — force draft:true on the newest post (in case the model omitted it)
 node -e '
