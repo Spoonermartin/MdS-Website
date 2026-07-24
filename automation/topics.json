@@ -136,7 +136,8 @@
       "tag": "Local SEO",
       "pillar": "Local SEO",
       "type": "spoke",
-      "status": "pending"
+      "status": "drafted",
+      "draftedOn": "2026-07-24"
     },
     {
       "order": 11,
