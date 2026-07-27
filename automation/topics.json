@@ -149,7 +149,8 @@
       "tag": "Conversion",
       "pillar": "Conversion",
       "type": "pillar",
-      "status": "pending"
+      "status": "drafted",
+      "draftedOn": "2026-07-27"
     },
     {
       "order": 12,
