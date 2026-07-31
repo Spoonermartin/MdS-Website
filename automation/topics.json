@@ -162,7 +162,8 @@
       "tag": "Conversion",
       "pillar": "Conversion",
       "type": "spoke",
-      "status": "pending"
+      "status": "drafted",
+      "draftedOn": "2026-07-31"
     },
     {
       "order": 13,
