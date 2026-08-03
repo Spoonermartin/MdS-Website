@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: "Local SEO for Tradesmen: How to Rank in Your Service Area and Win More
   Local Jobs"
 description: Local SEO for tradesmen determines whether your business appears
