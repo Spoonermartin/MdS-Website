@@ -12,7 +12,7 @@ tag: Local SEO
 readtime: 9 min read
 date: 2026-07-06
 ---
-Local SEO for tradesmen is the process of making your business appear at the top of Google when someone nearby searches for your trade. It covers your Google Business Profile, your website's content and structure, and your online reputation. Done well, it generates a consistent stream of qualified enquiries from people who are ready to book — without paying for every lead.
+Local SEO for tradesmen is the process of making your business appear at the top of Google when someone nearby searches for your trade. It covers your Google Business Profile, your website's content and structure, and your online reputation. Done well, it generates a consistent stream of qualified enquiries from people who are ready to book, without paying for every lead.
 
 - - -
 
