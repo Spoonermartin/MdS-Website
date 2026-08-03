@@ -1,11 +1,16 @@
 ---
-title: "Local SEO for Tradesmen: How to Rank in Your Service Area and Win More Local Jobs"
-description: Local SEO for tradesmen determines whether your business appears when nearby customers search on Google. This plain-English guide covers Google Business Profile, on-page optimisation, citations, and reviews — everything you need to rank in your service area.
-lead: You can be the best tradesperson in your area and still lose work to a competitor with a sharper Google presence. Local SEO closes that gap.
-tag: "Local SEO"
-readtime: "9 min read"
-date: 2026-07-06
 draft: true
+title: "Local SEO for Tradesmen: How to Rank in Your Service Area and Win More
+  Local Jobs"
+description: Local SEO for tradesmen determines whether your business appears
+  when nearby customers search on Google. This plain-English guide covers Google
+  Business Profile, on-page optimisation, citations, and reviews — everything
+  you need to rank in your service area.
+lead: You can be the best tradesperson in your area and still lose work to a
+  competitor with a sharper Google presence. Local SEO closes that gap.
+tag: Local SEO
+readtime: 9 min read
+date: 2026-07-06
 ---
 Local SEO for tradesmen is the process of making your business appear at the top of Google when someone nearby searches for your trade. It covers your Google Business Profile, your website's content and structure, and your online reputation. Done well, it generates a consistent stream of qualified enquiries from people who are ready to book — without paying for every lead.
 
@@ -13,11 +18,11 @@ Local SEO for tradesmen is the process of making your business appear at the top
 
 ## Why does local SEO matter so much for tradesmen in the UK?
 
-Local search dominates how trades customers find work. According to BrightLocal's 2024 Local Consumer Review Survey, 98% of consumers used the internet to find a local business at least once in 2023. For trades involving safety, urgency, or access to someone's home, that online search is where the trust decision gets made — often before anyone picks up the phone.
+Local search dominates how trades customers find work. According to BrightLocal's 2024 Local Consumer Review Survey, 98% of consumers used the internet to find a local business at least once in 2023. For trades involving safety, urgency, or access to someone's home, that online search is where the trust decision gets made, often before anyone picks up the phone.
 
 I have been in business for 30 years, running and advising companies across a wide range of sectors. The shift in how people find tradespeople has been one of the most significant commercial changes I have witnessed in that time. Word-of-mouth used to be the lifeblood of a trades business — a trusted recommendation that cost you nothing and converted at a very high rate. It is still valuable. But it is no longer sufficient on its own, because word-of-mouth now flows through Google before it reaches a decision.
 
-Someone has been recommended your name by a neighbour. That is a warm lead — the best kind. But before they ring you, they will Google you. In the ten seconds that follow, your online presence either confirms the recommendation or undermines it. If you do not appear, or if what they find is patchy, they will scroll to the next name. You never find out it happened.
+Someone has recommended you. That is a warm lead, the best kind. But before they ring you, they will Google you. In the ten seconds that follow, your online presence either confirms the recommendation or undermines it. If you do not appear, or if what they find is patchy, they will scroll to the next name. You never find out it happened.
 
 The competitive pressure is real. The Federation of Small Businesses estimates there are over 5.5 million small businesses in the UK, with construction and trades accounting for a disproportionate share of sole traders and micro-businesses. In most UK towns, a search for "electrician near me" or "plumber Cambridge" returns five or six businesses in the Google Local Pack before the visitor ever reaches the organic results below. Appearing in that pack is the difference between a steady pipeline of inbound work and spending £300 a month on lead directories to fill the gaps.
 
@@ -29,13 +34,13 @@ See how local SEO fits into the full picture in our [complete guide to web desig
 
 ## What is local SEO, and how is it different from regular SEO?
 
-Regular SEO aims for national or international search visibility — ranking content regardless of where the searcher is located. Local SEO targets geographic results: your business appearing when someone in your service area searches for your trade. For tradesmen, local SEO is almost always the correct priority. You are not competing with the whole of the UK; you are competing with the handful of plumbers or electricians within a ten-mile radius.
+Regular SEO aims for national or international search visibility, ranking content regardless of where the searcher is located. Local SEO targets geographic results: your business appearing when someone in your service area searches for your trade. For tradesmen, local SEO is almost always the correct priority. You are not competing with the whole of the UK; you are competing with the handful of plumbers or electricians within a ten-mile radius.
 
 Google's local search algorithm ranks businesses on three factors: **proximity** (how close you are to the searcher), **relevance** (how closely your content matches what they searched), and **prominence** (how established and trusted your business appears, measured by reviews, citations, and website authority). Local SEO optimises all three simultaneously.
 
 The most visible outcome is appearance in the **Google Local Pack** — the map and three business listings that appear above the organic results for searches like "plumber near me" or "heating engineer Cambridge." A 2024 BrightLocal study found that the Local Pack receives 42% of all clicks on a local search results page. If you are not appearing there, the majority of actively searching customers never see you.
 
-One practical advantage local SEO has over national SEO: the competition is real but beatable. A Cambridge plumber does not need to outrank the whole internet — only the other plumbers in Cambridgeshire. With the right foundations in place, that is an achievable goal within a few months of consistent work.
+One practical advantage local SEO has over national SEO: the competition is real but beatable. A Cambridge plumber does not need to outrank the whole internet, only the other plumbers in Cambridgeshire. With the right foundations in place, that is an achievable goal within a few months of consistent work.
 
 Our [digital marketing services](/services-digital-marketing) include full local SEO configuration as a standard part of every website project.
 
@@ -49,7 +54,7 @@ The non-negotiables for a trades GBP:
 
 **Business name and category.** Your primary category should be as specific as possible — "Plumber," "Electrician," "Roofer" — not a catch-all like "Contractor." Your business name must match your trading name exactly, and that name must be identical across your website and every directory listing. Character-for-character consistency matters more than most people realise.
 
-**Service area, precisely defined.** Add every town and postcode district you genuinely serve. Do not pad this out — Google cross-references your declared service area against where your reviews, website content, and activity suggest you actually operate. Overstating your area can suppress your rankings in the places you actually work.
+**Service area, precisely defined.** Add every town and postcode district you genuinely serve. Do not pad this out. Google cross-references your declared service area against where your reviews, website content, and activity suggest you actually operate. Overstating your area can suppress your rankings in the places you actually work.
 
 **Services section, fully populated.** Add individual services with descriptions. "Consumer unit replacement," "EV charger installation," "emergency call-out" — each service is an opportunity to match a query someone in your area types into Google. Most tradespeople leave this section blank or fill it with three lines. That is a straightforward ranking opportunity left on the table.
 
@@ -63,7 +68,7 @@ I have seen tradespeople with genuinely impressive operations sitting outside th
 
 ## What does on-page local SEO look like for a trades website?
 
-On-page local SEO means structuring your website so Google can clearly identify what you do, where you do it, and who you serve. According to Moz's Local Search Ranking Factors research, on-page signals — the content, structure, and technical setup of your website — remain among the most influential factors in local ranking, alongside your GBP. Most trades websites get this wrong by being too vague, too thin, or built for a general audience rather than a local one.
+On-page local SEO means structuring your website so Google can clearly identify what you do, where you do it, and who you serve. According to Moz's Local Search Ranking Factors research, on-page signals- the content, structure, and technical setup of your website - remain among the most influential factors in local ranking, alongside your GBP. Most trades websites get this wrong by being too vague, too thin, or built for a general audience rather than a local one.
 
 The practical components:
 
@@ -81,15 +86,15 @@ Visit our [web design services](/services-web-design) page to see how we build t
 
 ## Do local citations still matter for tradesmen?
 
-Local citations — mentions of your business name, address, and phone number on directories and third-party sites — remain a meaningful local ranking signal in 2026. Moz's Local Search Ranking Factors research consistently identifies citation signals among the top contributors to Local Pack rankings. Their influence relative to GBP and on-page signals has declined somewhat over the past few years, but accurate citations across authoritative directories continue to support local rankings in competitive markets.
+Local citations: mentions of your business name, address, and phone number on directories and third-party sites — remain a meaningful local ranking signal in 2026. Moz's Local Search Ranking Factors research consistently identifies citation signals among the top contributors to Local Pack rankings. Their influence relative to GBP and on-page signals has declined somewhat over the past few years, but accurate citations across authoritative directories continue to support local rankings in competitive markets.
 
 For tradesmen, the most valuable citations come from:
 
-- **Checkatrade, TrustATrader, and MyBuilder** — even if you no longer actively use them for leads, a complete and accurate listing on each supports your local authority
-- **Yell.com** and **Thomson Local** — legacy directories that retain genuine domain authority
-- **Trade body and certification websites** — Gas Safe Register, NICEIC, NAPIT listings carry both trust signals and citation value; these are particularly strong because Google understands their relevance to your trade
-- **Your local council's business directory** — often overlooked, reliably useful
-- **Bing Places for Business** — frequently neglected, but Bing accounts for approximately 6% of UK search volume and feeds Apple Maps
+* **Checkatrade, TrustATrader, and MyBuilder** — even if you no longer actively use them for leads, a complete and accurate listing on each supports your local authority
+* **Yell.com** and **Thomson Local** — legacy directories that retain genuine domain authority
+* **Trade body and certification websites** — Gas Safe Register, NICEIC, NAPIT listings carry both trust signals and citation value; these are particularly strong because Google understands their relevance to your trade
+* **Your local council's business directory** — often overlooked, reliably useful
+* **Bing Places for Business** — frequently neglected, but Bing accounts for approximately 6% of UK search volume and feeds Apple Maps
 
 What damages rankings more than absent citations is inconsistent ones. If your GBP says "Martin's Heating Ltd," your Yell listing says "Martins Heating," and your website footer says "Martin Spooner Heating & Plumbing," Google is looking at three different businesses. Clean up inconsistencies before building new citations.
 
