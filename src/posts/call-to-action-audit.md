@@ -1,11 +1,15 @@
 ---
+draft: false
 title: "The Call to Action Audit: Why Your CTAs Are Not Working and How to Fix Them"
-description: "A practical call to action website UK audit you can run in 30 minutes. Discover why most small business CTAs fail and the fixes that turn passive pages into enquiry generators."
-lead: "Most small business websites have calls to action that nobody clicks. Here is how to audit yours, fix what is broken, and start converting visitors into real enquiries."
-tag: "Conversion"
-readtime: "7 min read"
+description: A practical call to action website UK audit you can run in 30
+  minutes. Discover why most small business CTAs fail and the fixes that turn
+  passive pages into enquiry generators.
+lead: Most small business websites have calls to action that nobody clicks. Here
+  is how to audit yours, fix what is broken, and start converting visitors into
+  real enquiries.
+tag: Conversion
+readtime: 7 min read
 date: 2026-08-03
-draft: true
 ---
 
 A weak call to action on a website costs UK small businesses enquiries every single day. If your CTA says "Contact us" or "Learn more," you are almost certainly leaving money on the table. Research from Unbounce, analysing over 74,000 landing pages, found that personalised, specific CTAs convert up to 202% better than generic ones. This guide walks you through a practical call to action audit you can complete in 30 minutes, with fixes you can apply the same afternoon.
