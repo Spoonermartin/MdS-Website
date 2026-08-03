@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: "Holiday Let Website Design: How to Compete With Airbnb Listings"
 description: "Holiday let website design UK guide: how to build a direct booking
   site that competes with Airbnb and Booking.com, and keeps the 15–18%
@@ -20,7 +20,7 @@ There are now 375,400 active short-term rental listings in the UK ([PriceLabs UK
 
 \[INTERNAL-LINK: how direct bookings change your margins -> /insights/direct-bookings]
 
-\[IMAGE: A beautifully presented rural holiday cottage exterior with a warm, welcoming feel - search terms: "holiday cottage UK exterior stone"]
+
 
 ![A beautifully presented rural holiday cottage exterior with a warm, welcoming feel - search terms: "holiday cottage UK exterior stone](green-s-cottage-image.webp "Green Achres Cottage")
 
