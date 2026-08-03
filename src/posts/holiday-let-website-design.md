@@ -22,7 +22,7 @@ There are now 375,400 active short-term rental listings in the UK ([PriceLabs UK
 
 \[IMAGE: A beautifully presented rural holiday cottage exterior with a warm, welcoming feel - search terms: "holiday cottage UK exterior stone"]
 
-![A beautifully presented rural holiday cottage exterior with a warm, welcoming feel - search terms: "holiday cottage UK exterior stone](/assets/blog/green-s-cottage-image.webp "Green Achres Cottage")
+![A beautifully presented rural holiday cottage exterior with a warm, welcoming feel - search terms: "holiday cottage UK exterior stone](green-s-cottage-image.webp "Green Achres Cottage")
 
 ## Why Are OTA Commission Rates a Bigger Problem Than Ever in 2026?
 
