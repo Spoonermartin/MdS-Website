@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Holiday Let Website Design: How to Compete With Airbnb Listings | MdS Websites</title>
+<meta name="description" content="Holiday let website design UK guide: how to build a direct booking site that competes with Airbnb and Booking.com, and keeps the 15–18% commission in your pocket.">
+<link rel="canonical" href="https://mdswebsites.co.uk/insights/holiday-let-website-design/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="MdS Websites">
+<meta property="og:title" content="Holiday Let Website Design: How to Compete With Airbnb Listings | MdS Websites">
+<meta property="og:description" content="Holiday let website design UK guide: how to build a direct booking site that competes with Airbnb and Booking.com, and keeps the 15–18% commission in your pocket.">
+<meta property="og:url" content="https://mdswebsites.co.uk/insights/holiday-let-website-design/">
+<meta property="og:image" content="https://mdswebsites.co.uk/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Holiday Let Website Design: How to Compete With Airbnb Listings | MdS Websites">
+<meta name="twitter:description" content="Holiday let website design UK guide: how to build a direct booking site that competes with Airbnb and Booking.com, and keeps the 15–18% commission in your pocket.">
+<meta name="twitter:image" content="https://mdswebsites.co.uk/assets/og-image.png">
+
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/fraunces-latin-700-normal.woff2" crossorigin>
+<link rel="preload" as="font" type="font/woff2" href="/assets/fonts/inter-latin-400-normal.woff2" crossorigin>
+<link rel="icon" href="/favicon.ico?v=2" sizes="any">
+<link rel="icon" type="image/svg+xml" href="/assets/favicon.svg?v=2">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32.png?v=2">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png?v=2">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.css">
+<link rel="stylesheet" href="/assets/styles.css?v=21">
+<style>
+  .article-body { max-width: 720px; margin: 0 auto; }
+  .article-body h2 { font-size: clamp(1.4rem,2.4vw,1.9rem); margin-top: 2.5rem; margin-bottom: 0.75rem; color: var(--navy-950); }
+  .article-body h3 { font-size: clamp(1.2rem,2vw,1.5rem); margin-top: 2rem; margin-bottom: 0.6rem; color: var(--navy-950); }
+  .article-body p { font-size: 1.08rem; line-height: 1.8; color: var(--ink); margin-bottom: 1.25rem; }
+  .article-body ul, .article-body ol { padding-left: 1.4rem; margin-bottom: 1.25rem; }
+  .article-body li { font-size: 1.08rem; line-height: 1.8; color: var(--ink); margin-bottom: 0.5rem; }
+  .article-body strong { color: var(--navy-950); }
+  .article-body a { color: var(--gold-600, #b8860b); text-decoration: underline; }
+  .article-body img { max-width: 100%; height: auto; border-radius: var(--radius); margin: 1.5rem 0; }
+  .article-body blockquote { border-left: 3px solid var(--gold-500); padding: 1rem 1.5rem; margin: 2rem 0; background: rgba(201,161,77,0.06); border-radius: 0 var(--radius) var(--radius) 0; font-family: var(--font-display); font-size: 1.2rem; line-height: 1.5; color: var(--navy-900); font-style: italic; }
+  .article-body blockquote p { font-size: inherit; color: inherit; margin: 0; }
+  .article-meta { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; padding: 1.5rem 0; border-top: 1px solid rgba(0,0,0,0.08); border-bottom: 1px solid rgba(0,0,0,0.08); margin-bottom: 2.5rem; }
+  .article-meta-text strong { display: block; font-size: 0.95rem; color: var(--navy-950); }
+  .article-meta-text span { font-size: 0.85rem; color: var(--ink-soft); }
+  .article-tags { display: flex; gap: 0.5rem; flex-wrap: wrap; margin-bottom: 1.5rem; }
+  .related-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 1.5rem; }
+  @media (max-width: 700px) { .related-grid { grid-template-columns: 1fr; } }
+  .post-cover { width: 100%; height: auto; border-radius: var(--radius); margin-bottom: 2rem; }
+  /* Article components (carried over from the original Insights articles) */
+  .speed-stat { display: grid; grid-template-columns: repeat(3,1fr); gap: 1rem; margin: 2rem 0; }
+  .speed-stat-box { background: var(--navy-950); border-radius: var(--radius); padding: 1.25rem 1rem; text-align: center; }
+  .speed-stat-box strong { display: block; font-family: var(--font-display); font-size: 1.8rem; color: var(--gold-400); line-height: 1.1; }
+  .speed-stat-box span { font-size: 0.8rem; color: rgba(255,255,255,0.6); margin-top: 0.3rem; display: block; }
+  @media (max-width: 600px) { .speed-stat { grid-template-columns: 1fr; } }
+  .stat-row { display: grid; grid-template-columns: repeat(3,1fr); gap: 1.5rem; margin: 2rem 0; }
+  .stat-box { background: var(--navy-950); border-radius: var(--radius); padding: 1.5rem; text-align: center; }
+  .stat-box strong { display: block; font-family: var(--font-display); font-size: 2rem; color: var(--gold-400); }
+  .stat-box span { font-size: 0.85rem; color: rgba(255,255,255,0.65); }
+  @media (max-width: 600px) { .stat-row { grid-template-columns: 1fr; } }
+  .review-example { background: var(--cream); border-radius: var(--radius); padding: 1.25rem 1.5rem; margin: 1.5rem 0; border-left: 3px solid var(--gold-500); }
+  .review-example p { font-style: italic; margin-bottom: 0.5rem; font-size: 1rem; }
+  .review-example span { font-size: 0.85rem; color: var(--ink-soft); font-weight: 600; }
+</style>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Holiday Let Website Design: How to Compete With Airbnb Listings",
+  "description": "Holiday let website design UK guide: how to build a direct booking site that competes with Airbnb and Booking.com, and keeps the 15–18% commission in your pocket.",
+  "image": "https://mdswebsites.co.uk/assets/og-image.png",
+  "datePublished": "2026-07-13T00:00:00.000Z",
+  "dateModified": "2026-07-13T00:00:00.000Z",
+  "author": { "@type": "Person", "name": "Martin Spooner" },
+  "publisher": {
+    "@type": "Organization",
+    "name": "MdS Websites",
+    "logo": { "@type": "ImageObject", "url": "https://mdswebsites.co.uk/assets/icon-512.png" }
+  },
+  "mainEntityOfPage": { "@type": "WebPage", "@id": "https://mdswebsites.co.uk/insights/holiday-let-website-design/" }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://mdswebsites.co.uk/" },
+    { "@type": "ListItem", "position": 2, "name": "Insights", "item": "https://mdswebsites.co.uk/insights" },
+    { "@type": "ListItem", "position": 3, "name": "Holiday Let Website Design: How to Compete With Airbnb Listings", "item": "https://mdswebsites.co.uk/insights/holiday-let-website-design/" }
+  ]
+}
+</script>
+
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="container nav-bar">
+    <a class="logo" href="/" aria-label="MdS Websites home"><span class="logo-line1"><span class="logo-mds">Md<em>S</em></span><span class="logo-brand">&nbsp;Websites</span></span><span class="logo-tagline">Your Local Digital Partner</span></a>
+    <button class="nav-toggle" aria-expanded="false" aria-label="Open menu"><span></span><span></span><span></span></button>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="/">Home</a>
+      <a href="/about">About</a>
+      <div class="nav-drop">
+        <a href="/services">Services</a>
+        <div class="nav-drop-menu">
+          <a href="/services-branding">Branding &amp; Identity <small>Strategy, logo &amp; visual identity</small></a>
+          <a href="/services-web-design">Web Design &amp; Development <small>High-performing, conversion-led websites</small></a>
+          <a href="/services-digital-marketing">Digital Marketing &amp; SEO <small>Visibility, traffic &amp; enquiries</small></a>
+        </div>
+      </div>
+      <a href="/process">Our Process</a>
+      <a href="/portfolio">Portfolio</a>
+      <a href="/industries">Industries</a>
+      <a href="/insights">Insights</a>
+      <a href="/contact" class="btn btn-gold nav-cta">Start a Project</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+<section class="page-hero" style="position:relative;overflow:hidden;">
+  <canvas id="hero-dots" aria-hidden="true" style="position:absolute;inset:0;width:100%;height:100%;pointer-events:none;"></canvas>
+  <div class="container" style="position:relative;z-index:1;">
+    <p class="crumbs"><a href="/">Home</a> / <a href="/insights">Insights</a> / Hospitality</p>
+    <div class="article-tags"><span class="tag">Hospitality</span><span class="tag">8 min read</span></div>
+    <h1>Holiday Let Website Design: How to Compete With Airbnb Listings</h1>
+    <p class="lead">You&#39;re paying Airbnb 15.5% of every booking. A well-designed direct booking website changes that maths permanently.</p>
+  </div>
+</section>
+
+<section class="section section--white">
+  <div class="container">
+    <div class="article-body">
+      <div class="article-meta">
+        <div class="avatar" aria-hidden="true">MS</div>
+        <div class="article-meta-text">
+          <strong>Martin Spooner</strong>
+          <span>Founder, MdS Websites &nbsp;·&nbsp; July 2026</span>
+        </div>
+      </div>
+
+      
+
+      <p>There are now 375,400 active short-term rental listings in the UK (<a href="https://pricelabs.co/resources/">PriceLabs UK Vacation Rental Market Report</a>, 2026). Every one of those hosts faces the same dilemma: stay dependent on platforms that take a growing slice of each booking, or build a direct channel that pays back season after season. Holiday let website design UK is where that decision gets made.</p>
+<blockquote>
+<p><strong>Key Takeaways</strong></p>
+<ul>
+<li>Airbnb and Booking.com now charge UK hosts 15.5–18% per booking. A well-designed direct booking website pays for itself within a season. (PriceLabs, 2026)</li>
+<li>51% of UK travellers prefer to book directly through accommodation websites. The demand is already there.</li>
+<li>Website speed is make or break: 53% of mobile users abandon pages that take over 3 seconds to load (Google).</li>
+</ul>
+</blockquote>
+<p>[INTERNAL-LINK: how direct bookings change your margins -&gt; /insights/direct-bookings]</p>
+<p><img src="green-s-cottage-image.webp" alt="A beautifully presented rural holiday cottage exterior with a warm, welcoming feel - search terms: &quot;holiday cottage UK exterior stone" title="Green Achres Cottage"></p>
+<h2>Why Are OTA Commission Rates a Bigger Problem Than Ever in 2026?</h2>
+<p>Airbnb's host fee rose to 15.5% across the board when the new structure fully rolled out in April 2026, and Booking.com sits at 15–18% as standard (<a href="https://houst.com/">Houst</a>, 2026). On a property generating £30,000 a year, that's between £4,650 and £5,400 walking out the door before you've paid for a single changeover clean.</p>
+<p>For a few years, many hosts accepted this as the cost of visibility. But the maths has shifted. Commission creep, combined with tighter regulation in many UK towns and cities, means the margin on a short-term let is thinner than it used to be. Hosts who built any kind of direct booking capability in the past two or three years are now noticeably better off than those who didn't.</p>
+<p>It's also worth understanding what you're paying for. OTA fees cover marketing reach and trust infrastructure. Useful for new properties. Less essential once you've accumulated reviews, repeat guests, and a recognisable presence.</p>
+<blockquote>
+<p><strong>Citation capsule:</strong> Airbnb's UK host fee reached 15.5% per booking following its April 2026 restructure, while Booking.com charges 15–18% as standard (Houst, 2026). On a £30,000-a-year holiday let, that means up to £5,400 in annual commission, before operational costs are considered.</p>
+</blockquote>
+<p>[INTERNAL-LINK: understanding OTA commission structures -&gt; /insights/direct-bookings]</p>
+<h2>What Does a Holiday Let Website Need to Actually Convert Bookings?</h2>
+<p>51% of UK travellers now book directly through accommodation websites (<a href="https://www.aph.com/">APH Travel Booking Statistics</a>, 2025). But having a website isn't enough. I've seen plenty of holiday let sites that exist in name only: a few photos, a contact email, and an embedded Airbnb calendar. They don't convert, because they don't give guests a reason to book away from the platform they already trust.</p>
+<p>A website that actually moves bookings needs five things working together.</p>
+<p><strong>Photography that earns the decision.</strong> Not functional room shots. Images that communicate the feeling of being there: morning light through the kitchen window, a fire lit in the sitting room, the view from the garden in autumn. Guests book feelings, not specifications. If your photography isn't doing that work, your website won't either. <a href="/services-branding">Our branding services</a> include photography briefs and art direction, which makes a real difference here.</p>
+<p><strong>A booking engine built for mobile.</strong> If your availability calendar is clunky on a phone, guests will go back to Airbnb, which is polished on every device, because they've spent billions making sure of it. Your booking process needs to be just as frictionless.</p>
+<p><strong>Local content the platforms can't replicate.</strong> OTA listings are formatted identically by design. Your website can tell the story of the property, describe the best walk from the door, recommend the pub two fields over, explain why October is actually the finest month to visit. This content builds desire and improves your search visibility at the same time.</p>
+<p><strong>A clear reason to book direct.</strong> A discount, a welcome hamper, early check-in. Guests need something tangible to make them go off-platform. More on this below.</p>
+<p><strong>Trust signals throughout.</strong> Guest testimonials, a named owner, clear cancellation terms, and a phone number all reduce the anxiety of booking away from a platform that carries an implicit guarantee.</p>
+<p>[PERSONAL EXPERIENCE]: I worked with one holiday let owner whose website was, in effect, just their Airbnb listing reformatted into WordPress. Same photos (smaller), same description (shorter), no booking engine, no direct incentive, no unique content. It ranked for nothing, converted nobody, and they couldn't understand why guests weren't using it. The site wasn't a direct booking channel. It was a brochure for their Airbnb page.</p>
+<blockquote>
+<p><strong>Citation capsule:</strong> 51% of UK travellers book directly through accommodation websites (APH Travel Booking Statistics, 2025). Yet most holiday let websites fail to convert those visitors because they lack a functioning mobile booking engine, a direct incentive, or content that differentiates the property from its OTA listing.</p>
+</blockquote>
+<p>[INTERNAL-LINK: what makes a website convert -&gt; /insights/website-conversion]</p>
+<p>[CHART: Bar chart - Booking source split for UK short-term rentals (OTA vs Direct) - source: APH / PriceLabs 2025-2026]</p>
+<h2>Does Website Speed Really Affect Holiday Let Bookings?</h2>
+<p>A 0.1-second improvement in mobile page load time increased booking conversions on travel websites by 10.1% (<a href="https://www.thinkwithgoogle.com/">Google/Deloitte &quot;Milliseconds Make Millions&quot;</a>, 2020). That's not a rounding error. For a property generating £25,000 a year in direct bookings, a 10% uplift is £2,500, from a technical fix that most visitors will never consciously notice.</p>
+<p>53% of mobile users abandon a website that takes longer than three seconds to load (Google). And most holiday searches happen on a phone, often while the guest is commuting or browsing in an evening. If your site is slow, you're losing potential bookings before anyone's even seen the kitchen.</p>
+<p>The most common culprits are oversized images, bloated page builders, and budget hosting. A properly built holiday let website should score above 70 on Google PageSpeed Insights for mobile. Below 50, and you're likely losing a measurable share of your enquiries. <a href="/services-web-design">Our web design services</a> treat mobile performance as a baseline requirement, not an optional extra.</p>
+<blockquote>
+<p><strong>Citation capsule:</strong> Google and Deloitte's &quot;Milliseconds Make Millions&quot; study found that a 0.1-second improvement in mobile page speed increased travel website conversions by 10.1%. Given that 53% of mobile users abandon pages taking more than three seconds to load, site speed is directly tied to bookings, not just user experience.</p>
+</blockquote>
+<p>[IMAGE: Screenshot of Google PageSpeed Insights showing a high mobile performance score - search terms: &quot;pagespeed insights mobile score green&quot;]</p>
+<h2>How Do You Make Your Listing Stand Out Against Airbnb's Search Results?</h2>
+<p>91% of UK adults research their holiday destination before booking, spending an average of 3.8 weeks on that research (<a href="https://ipa.co.uk/">IPA</a>, 2025). That's your window. By the time someone books, they've visited multiple websites, read reviews, looked at Instagram accounts, and formed a strong impression of the place. A well-designed website with good local content gets into that research phase.</p>
+<p>OTAs are built for transaction. Your website can be built for inspiration.</p>
+<p>Think about what people search for before they search for a property. &quot;Pet-friendly cottages Norfolk.&quot; &quot;Self-catering with hot tub Lake District.&quot; &quot;Holiday let near Southwold.&quot; These are content opportunities that your OTA listing can't capture, but a dedicated page on your website can. SEO-focused holiday let website design UK starts with understanding what your guests are searching for two or three steps before they commit.</p>
+<p>Local storytelling is particularly powerful. Write about the market town 20 minutes away. Explain which season is best and why. Describe the walking route from the front door. None of this is possible on Airbnb. All of it builds trust, improves search rankings, and gives guests a reason to remember your property by name. <a href="/services-digital-marketing">Our digital marketing services</a> can help develop this content strategy alongside the website itself.</p>
+<p>[UNIQUE INSIGHT]: VisitBritain forecasts 45.5 million inbound visits to the UK in 2026, with visitor spending of £35.7 billion (<a href="https://www.visitbritain.org/">VisitBritain</a>, 2026). A meaningful share of that is guests actively looking for self-catering accommodation. Most of them will search Google before they open Airbnb. A website with genuine local content puts you in that search. Your OTA listing doesn’t.</p>
+<blockquote>
+<p><strong>Citation capsule:</strong> With 91% of UK adults spending an average 3.8 weeks researching their destination before booking (IPA, 2025), holiday let websites have a significant window to capture guest interest before a transaction platform enters the picture. Local storytelling and destination content is the primary tool for doing so.</p>
+</blockquote>
+<p>[INTERNAL-LINK: local SEO for hospitality businesses -&gt; /services-digital-marketing]</p>
+<h2>The Direct Booking Incentive: What Should You Offer Guests?</h2>
+<p>Direct bookings in UK hospitality are growing at 7% year-on-year, and 45% of guests say website usability drives their decision to book direct rather than through a platform (<a href="https://www.globenewswire.com/">BestBookDirect survey via GlobeNewswire</a>, May 2025). Usability matters. But so does the &quot;why bother&quot; question. Guests need a reason to type your URL rather than clicking the familiar Airbnb button.</p>
+<p>The good news: your direct incentive doesn't need to be dramatic. It just needs to be visible and credible.</p>
+<p>Options that work well in practice include a modest discount (5–10% is enough to make the maths obvious), a flexible cancellation policy that's more generous than your OTA terms, early check-in or late checkout where you can offer it, a welcome pack or small gift on arrival, or a personal message from the owner before the stay.</p>
+<p>[ORIGINAL DATA]: I've seen a property move 30% of its bookings to direct within a single season. The mechanism was simple: a &quot;Book Direct and Save 10%&quot; banner on the homepage, a properly integrated booking engine, and a follow-up email to every past OTA guest with a direct booking link. No complicated loyalty scheme. Just a clear offer, a working system, and the persistence to follow it through.</p>
+<p>The cancellation data is worth noting here. Direct booking cancellation rates run at 10.6%, compared with 21.8% for OTA bookings (<a href="https://www.supercontrol.co.uk/">SuperControl</a>, 2025). That's not just a revenue difference; it’s a planning and stress difference too. Direct guests tend to be more committed because they've made a more deliberate choice.</p>
+<blockquote>
+<p><strong>Citation capsule:</strong> Direct booking cancellation rates stand at 10.6%, compared with 21.8% for OTA bookings (SuperControl, 2025). This gap reflects not just the value of owning your booking channel, but the quality of guest it tends to attract: one who has actively chosen to book with you, rather than whichever option ranked first.</p>
+</blockquote>
+<p>[IMAGE: Simple, clean direct booking website homepage on a laptop and mobile device side by side - search terms: &quot;holiday let website design laptop mobile responsive&quot;]</p>
+<h2>How Long Before a Direct Booking Website Pays for Itself?</h2>
+<p>The return on investment calculation for holiday let website design UK is more straightforward than most business investments. You know exactly what you're paying in commission, and you know the cost of building a proper website. The breakeven point is just maths.</p>
+<p>Take a property generating £30,000 a year in bookings, currently 100% through OTAs at 15.5%. That's £4,650 in commission annually. A well-built direct booking website, professionally designed with a booking engine, proper SEO, and mobile performance built in, typically costs between £2,500 and £5,000 for a property of this size.</p>
+<p>If that website moves just 30% of bookings to direct in year one, it saves around £1,395 in commission. In year two, as SEO rankings improve and returning guests build up, that figure typically grows. Most owners who commit to a direct booking website find it pays for itself within the first full season, sometimes faster. You can see examples of what we've built for hospitality clients in <a href="/portfolio">our portfolio</a>.</p>
+<p>The right framing isn't &quot;can I afford a website.&quot; It's &quot;can I afford to keep paying the platforms.&quot;</p>
+<blockquote>
+<p><strong>Citation capsule:</strong> A holiday let property generating £30,000 annually and paying 15.5% OTA commission loses £4,650 per year to platform fees. A direct booking website costing £2,500–£5,000 that converts just 30% of bookings to direct recovers that cost within the first season and continues to improve year-on-year as the direct audience grows.</p>
+</blockquote>
+<hr>
+<p>If you'd like to talk through what a direct booking website might look like for your property, <a href="/contact">get in touch</a>. No pressure, just a conversation about whether it makes sense for you.</p>
+<hr>
+<h2>Frequently Asked Questions</h2>
+<h3>How much does a holiday let website cost in the UK?</h3>
+<p>A simple holiday let website with basic information and a contact form starts from around £800–£1,500. A proper direct booking website, with a booking engine, mobile-optimised design, SEO foundations, and professional content, typically costs £2,500–£5,000. That investment pays back quickly when you consider that 15.5% Airbnb commission on £30,000 of revenue is £4,650 a year.</p>
+<h3>Can I keep using Airbnb if I have my own website?</h3>
+<p>Yes, and for most properties it makes sense to do so, at least initially. OTAs provide visibility and a stream of first-time guests. The goal isn't to abandon them, but to convert a portion of those guests into direct bookers over time. Many successful holiday let owners run both channels indefinitely, with OTAs used for new guest acquisition and their own site for returning guests and direct referrals.</p>
+<h3>What booking system should I use on my holiday let website?</h3>
+<p>Several well-regarded options exist for UK holiday lets, including SuperControl, Lodgify, and Smoobu. All three connect to your OTA calendars via channel management, so you avoid double-bookings. The right choice depends on the number of properties you manage and how much flexibility you need on pricing and guest communications. I'd recommend testing the mobile booking flow before committing, as it’s where most guests will complete their reservation.</p>
+<h3>How long does it take to rank on Google for holiday let searches?</h3>
+<p>Honest answer: three to six months before you see meaningful movement, nine to twelve before rankings stabilise. SEO for holiday let website design UK is a medium-term investment. The good news is that well-written local content (destination guides, area pages, things to do nearby) tends to rank faster than purely transactional pages, and it also converts better when visitors arrive. <a href="/services-digital-marketing">Our digital marketing services</a> include this kind of content strategy.</p>
+<h3>Do I need professional photography for my holiday let website?</h3>
+<p>Yes. This is probably the highest-return investment in your direct booking channel. Research consistently shows that professional photography increases booking conversion rates significantly, and unlike SEO, the impact is immediate. Guests decide within seconds whether they're interested in a property, and that decision is driven by images above everything else. Smartphone photos, even good ones, rarely communicate the atmosphere that earns a booking. See our <a href="/services-branding">branding services</a> for how we approach this.</p>
+
+
+      <div style="margin-top:2.5rem;">
+        <a href="/contact" class="btn btn-gold" style="color:#fff;">Start a Project</a>
+        &nbsp;&nbsp;
+        <a href="/insights" class="btn btn-navy">Back to Insights</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="section">
+  <div class="container">
+    <div class="section-head"><p class="eyebrow">Keep Reading</p><h2>More from the Insights blog</h2></div>
+    <div class="related-grid">
+      
+        
+          
+          <article class="card post-card">
+            <div class="meta"><span class="tag tag--gold">Conversion</span><span>7 min read</span></div>
+            <h3><a href="/insights/call-to-action-audit/">The Call to Action Audit: Why Your CTAs Are Not Working and How to Fix Them</a></h3>
+            <p class="muted mt-2">Most small business websites have calls to action that nobody clicks. Here is how to audit yours, fix what is...</p>
+            <a class="text-link card-link" href="/insights/call-to-action-audit/">Read article</a>
+          </article>
+        
+      
+        
+      
+        
+          
+          <article class="card post-card">
+            <div class="meta"><span class="tag tag--gold">Performance</span><span>6 min read</span></div>
+            <h3><a href="/insights/website-speed/">Speed sells: why slow websites quietly lose enquiries every day</a></h3>
+            <p class="muted mt-2">Every extra second of load time costs conversions, especially on mobile, where most local searches happen....</p>
+            <a class="text-link card-link" href="/insights/website-speed/">Read article</a>
+          </article>
+        
+      
+        
+          
+          <article class="card post-card">
+            <div class="meta"><span class="tag tag--gold">Local SEO</span><span>9 min read</span></div>
+            <h3><a href="/insights/local-seo-for-tradesmen/">Local SEO for Tradesmen: How to Rank in Your Service Area and Win More Local Jobs</a></h3>
+            <p class="muted mt-2">You can be the best tradesperson in your area and still lose work to a competitor with a sharper Google...</p>
+            <a class="text-link card-link" href="/insights/local-seo-for-tradesmen/">Read article</a>
+          </article>
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="container">
+    <div class="cta-band">
+      <h2>Ready to turn your website into a growth engine?</h2>
+      <p>Book a free, no-pressure 15-minute call. We'll review your current digital presence and map your next steps.</p>
+      <div class="hero-ctas"><a class="btn btn-gold" href="/contact">Book Your Free Growth Call</a><a class="btn btn-ghost" href="/portfolio">See Our Work</a></div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a class="logo" href="/"><span class="logo-line1"><span class="logo-mds">Md<em>S</em></span><span class="logo-brand">&nbsp;Websites</span></span><span class="logo-tagline">Your Local Digital Partner</span></a>
+        <p>Your digital growth partner for branding, websites and online marketing. Based in Cambridge, serving ambitious businesses across the UK.</p>
+        <p class="footer-social"><a href="https://www.facebook.com/Mdswebsites" target="_blank" rel="noopener">Facebook</a> &middot; <a href="https://www.youtube.com/@mdswebsites" target="_blank" rel="noopener">YouTube</a></p>
+      </div>
+      <div><h4>Services</h4><ul><li><a href="/services-branding">Branding &amp; Identity</a></li><li><a href="/services-web-design">Web Design &amp; Development</a></li><li><a href="/services-digital-marketing">Digital Marketing &amp; SEO</a></li><li><a href="/process">Our Process</a></li></ul></div>
+      <div><h4>Company</h4><ul><li><a href="/about">About</a></li><li><a href="/portfolio">Portfolio</a></li><li><a href="/industries">Industries</a></li><li><a href="/insights">Insights</a></li><li><a href="/contact">Contact</a></li></ul></div>
+      <div><h4>Get in Touch</h4><ul><li><a href="mailto:info@mdswebsites.co.uk">info@mdswebsites.co.uk</a></li><li><a href="tel:+447563660370">07563 660370</a></li><li>Cambridge, United Kingdom</li><li>Client meetings Mon–Fri, 6am–9pm</li></ul></div>
+    </div>
+    <div class="footer-bottom"><span>© 2026 MdS Websites. All rights reserved. · <a href="/privacy">Privacy Policy</a></span><span>Branding · Websites · Growth</span></div>
+  </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+<script src="/assets/animations.js?v=15" defer></script>
+<script src="/assets/main.js" defer></script>
+
+<script>(function(){const canvas=document.getElementById('hero-dots');if(!canvas||window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;const ctx=canvas.getContext('2d');const GAP=28,RADIUS=120,DPR=window.devicePixelRatio||1;let W,H,dots=[],mouse={x:-9999,y:-9999};function build(){const r=canvas.getBoundingClientRect();W=r.width;H=r.height;canvas.width=W*DPR;canvas.height=H*DPR;ctx.scale(DPR,DPR);dots=[];for(let r=0;r<Math.ceil(H/GAP)+1;r++)for(let c=0;c<Math.ceil(W/GAP)+1;c++)dots.push({x:c*GAP,y:r*GAP,lit:0});}build();window.addEventListener('resize',()=>{ctx.setTransform(1,0,0,1,0,0);build();});const sec=canvas.parentElement;sec.addEventListener('mousemove',e=>{const r=canvas.getBoundingClientRect();mouse.x=e.clientX-r.left;mouse.y=e.clientY-r.top;});sec.addEventListener('mouseleave',()=>{mouse.x=-9999;mouse.y=-9999;});function lerp(a,b,t){return a+(b-a)*t;}function draw(){ctx.clearRect(0,0,W,H);dots.forEach(d=>{const dx=d.x-mouse.x,dy=d.y-mouse.y,dist=Math.sqrt(dx*dx+dy*dy),target=dist<RADIUS?Math.pow(1-dist/RADIUS,1.6):0;d.lit=lerp(d.lit,target,target>d.lit?0.18:0.06);ctx.beginPath();ctx.arc(d.x,d.y+d.lit*-3,1.2+d.lit*2.2,0,Math.PI*2);ctx.fillStyle=`rgba(217,182,106,${(0.10+d.lit*0.7).toFixed(3)})`;ctx.fill();});requestAnimationFrame(draw);}draw();})();</script>
+<script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
+<script>
+  function mdsLoadAnalytics(){
+    if (document.getElementById('cf-beacon')) return;
+    var s = document.createElement('script');
+    s.id = 'cf-beacon';
+    s.defer = true;
+    s.src = 'https://static.cloudflareinsights.com/beacon.min.js';
+    s.setAttribute('data-cf-beacon', '{"token": "14fab6d4aff94f24b295160b5cf0aec3"}');
+    document.body.appendChild(s);
+  }
+  CookieConsent.run({
+    guiOptions: {
+      consentModal: { layout: 'box', position: 'bottom right' },
+      preferencesModal: { layout: 'box' }
+    },
+    categories: {
+      necessary: { enabled: true, readOnly: true },
+      analytics: {
+        services: {
+          cloudflare: {
+            label: 'Cloudflare Web Analytics (cookieless)',
+            onAccept: mdsLoadAnalytics
+          }
+        }
+      }
+    },
+    language: {
+      default: 'en',
+      translations: {
+        en: {
+          consentModal: {
+            title: 'We value your privacy',
+            description: 'We use a privacy-friendly, cookieless analytics tool to understand how visitors use our site. Choose what you are happy with.',
+            acceptAllBtn: 'Accept all',
+            acceptNecessaryBtn: 'Reject all',
+            showPreferencesBtn: 'Manage preferences',
+            footer: '<a href="/privacy">Privacy Policy</a>'
+          },
+          preferencesModal: {
+            title: 'Cookie preferences',
+            acceptAllBtn: 'Accept all',
+            acceptNecessaryBtn: 'Reject all',
+            savePreferencesBtn: 'Save preferences',
+            closeIconLabel: 'Close',
+            sections: [
+              { title: 'Necessary', description: 'Required for the site to function correctly. Always on.', linkedCategory: 'necessary' },
+              { title: 'Analytics', description: 'Lets us measure visits with cookieless Cloudflare Web Analytics. No personal data or cookies are stored.', linkedCategory: 'analytics' },
+              { title: 'More information', description: 'For details, see our <a href="/privacy">Privacy Policy</a>.' }
+            ]
+          }
+        }
+      }
+    }
+  });
+</script>
+
+</body>
+</html>
