@@ -188,7 +188,8 @@
       "tag": "Branding",
       "pillar": "Branding",
       "type": "pillar",
-      "status": "pending"
+      "status": "drafted",
+      "draftedOn": "2026-08-07"
     },
     {
       "order": 15,
